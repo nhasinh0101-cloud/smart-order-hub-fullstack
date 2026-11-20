@@ -1,4 +1,4 @@
-# ĐỒ ÁN WEB 2 – SMART ORDER HUB
+# ĐỒ ÁN KIẾN TẬP – SMART ORDER HUB
 
 Smart Order Hub (SOH) là website quản lý đơn đặt hàng B2B. Khách hàng gửi đơn đặt hàng (PO) qua cổng web. Nhân viên theo dõi quá trình tiếp nhận, kiểm tra dữ liệu, xử lý ngoại lệ và mô phỏng chuyển đơn sang SAP để tạo Sales Order.
 
