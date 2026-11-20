@@ -1,0 +1,242 @@
+[
+  {
+    "message_id": "MSG001",
+    "transaction_id": "TXN001",
+    "message_type": "Request",
+    "direction": "Outbound",
+    "message_content": "{\"requestId\":\"REQ-20261005-0001\",\"hubOrderId\":\"HUB-20261005-0001\",\"soldTo\":\"C100001\",\"items\":[{\"item\":1,\"sku\":\"SKU-10007\",\"qty\":1440,\"uom\":\"EA\",\"price\":38000},{\"item\":2,\"sku\":\"SKU-10007\",\"qty\":960,\"uom\":\"EA\",\"price\":38000}]}",
+    "response_code": null,
+    "response_description": null,
+    "received_at": {
+      "$date": "2026-10-05T11:25:00.000Z"
+    }
+  },
+  {
+    "message_id": "MSG002",
+    "transaction_id": "TXN001",
+    "message_type": "Technical_ACK",
+    "direction": "Inbound",
+    "message_content": "{\"requestId\": \"REQ-20261005-0001\", \"status\": \"RECEIVED\"}",
+    "response_code": "200",
+    "response_description": "Yêu cầu đã được SAP tiếp nhận",
+    "received_at": {
+      "$date": "2026-10-05T11:25:01.000Z"
+    }
+  },
+  {
+    "message_id": "MSG003",
+    "transaction_id": "TXN001",
+    "message_type": "Business_ACK",
+    "direction": "Inbound",
+    "message_content": "{\"requestId\": \"REQ-20261005-0001\", \"status\": \"SUCCESS\", \"salesOrder\": \"4500000101\"}",
+    "response_code": "S",
+    "response_description": "Tạo Sales Order thành công",
+    "received_at": {
+      "$date": "2026-10-05T11:27:00.000Z"
+    }
+  },
+  {
+    "message_id": "MSG004",
+    "transaction_id": "TXN002",
+    "message_type": "Request",
+    "direction": "Outbound",
+    "message_content": "{\"requestId\":\"REQ-20261006-0002\",\"hubOrderId\":\"HUB-20261006-0002\",\"soldTo\":\"C100002\",\"items\":[{\"item\":1,\"sku\":\"SKU-10014\",\"qty\":1152,\"uom\":\"EA\",\"price\":14500},{\"item\":2,\"sku\":\"SKU-10014\",\"qty\":768,\"uom\":\"EA\",\"price\":14500}]}",
+    "response_code": null,
+    "response_description": null,
+    "received_at": {
+      "$date": "2026-10-06T08:25:00.000Z"
+    }
+  },
+  {
+    "message_id": "MSG005",
+    "transaction_id": "TXN002",
+    "message_type": "Technical_ACK",
+    "direction": "Inbound",
+    "message_content": "{\"requestId\": \"REQ-20261006-0002\", \"status\": \"RECEIVED\"}",
+    "response_code": "200",
+    "response_description": "Yêu cầu đã được SAP tiếp nhận",
+    "received_at": {
+      "$date": "2026-10-06T08:25:01.000Z"
+    }
+  },
+  {
+    "message_id": "MSG006",
+    "transaction_id": "TXN002",
+    "message_type": "Business_ACK",
+    "direction": "Inbound",
+    "message_content": "{\"requestId\": \"REQ-20261006-0002\", \"status\": \"SUCCESS\", \"salesOrder\": \"4500000102\"}",
+    "response_code": "S",
+    "response_description": "Tạo Sales Order thành công",
+    "received_at": {
+      "$date": "2026-10-06T08:27:00.000Z"
+    }
+  },
+  {
+    "message_id": "MSG007",
+    "transaction_id": "TXN003",
+    "message_type": "Request",
+    "direction": "Outbound",
+    "message_content": "{\"requestId\":\"REQ-20261007-0003\",\"hubOrderId\":\"HUB-20261007-0003\",\"soldTo\":\"C100003\",\"items\":[{\"item\":1,\"sku\":\"SKU-10021\",\"qty\":864,\"uom\":\"EA\",\"price\":4500},{\"item\":2,\"sku\":\"SKU-10021\",\"qty\":576,\"uom\":\"EA\",\"price\":4500}]}",
+    "response_code": null,
+    "response_description": null,
+    "received_at": {
+      "$date": "2026-10-07T05:25:00.000Z"
+    }
+  },
+  {
+    "message_id": "MSG008",
+    "transaction_id": "TXN003",
+    "message_type": "Technical_ACK",
+    "direction": "Inbound",
+    "message_content": "{\"requestId\": \"REQ-20261007-0003\", \"status\": \"RECEIVED\"}",
+    "response_code": "200",
+    "response_description": "Yêu cầu đã được SAP tiếp nhận",
+    "received_at": {
+      "$date": "2026-10-07T05:25:01.000Z"
+    }
+  },
+  {
+    "message_id": "MSG009",
+    "transaction_id": "TXN003",
+    "message_type": "Business_ACK",
+    "direction": "Inbound",
+    "message_content": "{\"requestId\": \"REQ-20261007-0003\", \"status\": \"SUCCESS\", \"salesOrder\": \"4500000103\"}",
+    "response_code": "S",
+    "response_description": "Tạo Sales Order thành công",
+    "received_at": {
+      "$date": "2026-10-07T05:27:00.000Z"
+    }
+  },
+  {
+    "message_id": "MSG010",
+    "transaction_id": "TXN004",
+    "message_type": "Request",
+    "direction": "Outbound",
+    "message_content": "{\"requestId\":\"REQ-20261008-0004\",\"hubOrderId\":\"HUB-20261008-0004\",\"soldTo\":\"C100004\",\"items\":[{\"item\":1,\"sku\":\"SKU-10063\",\"qty\":372,\"uom\":\"EA\",\"price\":9500}]}",
+    "response_code": null,
+    "response_description": null,
+    "received_at": {
+      "$date": "2026-10-08T02:25:00.000Z"
+    }
+  },
+  {
+    "message_id": "MSG011",
+    "transaction_id": "TXN004",
+    "message_type": "Technical_ACK",
+    "direction": "Inbound",
+    "message_content": "{\"requestId\": \"REQ-20261008-0004\", \"status\": \"RECEIVED\"}",
+    "response_code": "200",
+    "response_description": "Yêu cầu đã được SAP tiếp nhận",
+    "received_at": {
+      "$date": "2026-10-08T02:25:01.000Z"
+    }
+  },
+  {
+    "message_id": "MSG012",
+    "transaction_id": "TXN004",
+    "message_type": "Business_ACK",
+    "direction": "Inbound",
+    "message_content": "{\"requestId\": \"REQ-20261008-0004\", \"status\": \"SUCCESS\", \"salesOrder\": \"4500000104\"}",
+    "response_code": "S",
+    "response_description": "Tạo Sales Order thành công",
+    "received_at": {
+      "$date": "2026-10-08T02:27:00.000Z"
+    }
+  },
+  {
+    "message_id": "MSG013",
+    "transaction_id": "TXN005",
+    "message_type": "Request",
+    "direction": "Outbound",
+    "message_content": "{\"requestId\":\"REQ-20261008-0005\",\"hubOrderId\":\"HUB-20261008-0005\",\"soldTo\":\"C100005\",\"items\":[{\"item\":1,\"sku\":\"SKU-10112\",\"qty\":2250,\"uom\":\"EA\",\"price\":78000}]}",
+    "response_code": null,
+    "response_description": null,
+    "received_at": {
+      "$date": "2026-10-08T18:25:00.000Z"
+    }
+  },
+  {
+    "message_id": "MSG014",
+    "transaction_id": "TXN005",
+    "message_type": "Technical_ACK",
+    "direction": "Inbound",
+    "message_content": "{\"requestId\": \"REQ-20261008-0005\", \"status\": \"RECEIVED\"}",
+    "response_code": "200",
+    "response_description": "Yêu cầu đã được SAP tiếp nhận",
+    "received_at": {
+      "$date": "2026-10-08T18:25:01.000Z"
+    }
+  },
+  {
+    "message_id": "MSG015",
+    "transaction_id": "TXN005",
+    "message_type": "Business_ACK",
+    "direction": "Inbound",
+    "message_content": "{\"requestId\": \"REQ-20261008-0005\", \"status\": \"SUCCESS\", \"salesOrder\": \"4500000105\"}",
+    "response_code": "S",
+    "response_description": "Tạo Sales Order thành công",
+    "received_at": {
+      "$date": "2026-10-08T18:27:00.000Z"
+    }
+  },
+  {
+    "message_id": "MSG016",
+    "transaction_id": "TXN018",
+    "message_type": "Request",
+    "direction": "Outbound",
+    "message_content": "{\"requestId\":\"REQ-20261010-0018\",\"hubOrderId\":\"HUB-20261010-0007\",\"items\":[{\"item\":1,\"sku\":\"SKU-10070\",\"qty\":33,\"uom\":\"EA\",\"price\":138000}],\"soldTo\":\"C100007\"}",
+    "response_code": null,
+    "response_description": null,
+    "received_at": {
+      "$date": "2026-10-10T12:25:00.000Z"
+    }
+  },
+  {
+    "message_id": "MSG017",
+    "transaction_id": "TXN018",
+    "message_type": "Business_ACK",
+    "direction": "Inbound",
+    "message_content": "{\"requestId\": \"REQ-20261010-0018\", \"status\": \"ERROR\", \"code\": \"E_MAT_NOT_FOUND\"}",
+    "response_code": "E_MAT_NOT_FOUND",
+    "response_description": "Không tìm thấy vật tư trong plant 1100",
+    "received_at": {
+      "$date": "2026-10-10T12:28:00.000Z"
+    }
+  },
+  {
+    "message_id": "MSG018",
+    "transaction_id": "TXN019",
+    "message_type": "Request",
+    "direction": "Outbound",
+    "message_content": "{\"requestId\":\"REQ-20261011-0019\",\"hubOrderId\":\"HUB-20261011-0008\",\"items\":[{\"item\":1,\"sku\":\"SKU-10119\",\"qty\":48,\"uom\":\"EA\",\"price\":11000}],\"soldTo\":\"C100008\"}",
+    "response_code": null,
+    "response_description": null,
+    "received_at": {
+      "$date": "2026-10-11T09:25:00.000Z"
+    }
+  },
+  {
+    "message_id": "MSG019",
+    "transaction_id": "TXN019",
+    "message_type": "Business_ACK",
+    "direction": "Inbound",
+    "message_content": "{\"requestId\": \"REQ-20261011-0019\", \"status\": \"ERROR\", \"code\": \"E_CREDIT_BLOCK\"}",
+    "response_code": "E_CREDIT_BLOCK",
+    "response_description": "Khách hàng bị khóa hạn mức tín dụng",
+    "received_at": {
+      "$date": "2026-10-11T09:28:00.000Z"
+    }
+  },
+  {
+    "message_id": "MSG020",
+    "transaction_id": "TXN020",
+    "message_type": "Request",
+    "direction": "Outbound",
+    "message_content": "{\"requestId\":\"REQ-20261012-0020\",\"hubOrderId\":\"HUB-20261012-0009\",\"items\":[{\"item\":1,\"sku\":\"SKU-10028\",\"qty\":37,\"uom\":\"EA\",\"price\":32000}],\"soldTo\":\"C100009\"}",
+    "response_code": null,
+    "response_description": null,
+    "received_at": {
+      "$date": "2026-10-12T06:25:00.000Z"
+    }
+  }
+]

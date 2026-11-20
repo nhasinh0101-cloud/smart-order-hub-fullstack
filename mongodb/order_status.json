@@ -1,0 +1,156 @@
+[
+  {
+    "status_code": "DRAFT",
+    "status_name": "Bản nháp",
+    "description": "Trạng thái: Bản nháp",
+    "status_group": "Order Processing",
+    "is_active": true
+  },
+  {
+    "status_code": "NEW",
+    "status_name": "Mới tạo",
+    "description": "Trạng thái: Mới tạo",
+    "status_group": "Order Processing",
+    "is_active": true
+  },
+  {
+    "status_code": "RECEIVED",
+    "status_name": "Đã tiếp nhận",
+    "description": "Trạng thái: Đã tiếp nhận",
+    "status_group": "Order Processing",
+    "is_active": true
+  },
+  {
+    "status_code": "VALIDATING",
+    "status_name": "Đang kiểm tra",
+    "description": "Trạng thái: Đang kiểm tra",
+    "status_group": "Validation",
+    "is_active": true
+  },
+  {
+    "status_code": "VALIDATION_FAILED",
+    "status_name": "Kiểm tra thất bại",
+    "description": "Trạng thái: Kiểm tra thất bại",
+    "status_group": "Validation",
+    "is_active": true
+  },
+  {
+    "status_code": "EXCEPTION_OPEN",
+    "status_name": "Có ngoại lệ chờ xử lý",
+    "description": "Trạng thái: Có ngoại lệ chờ xử lý",
+    "status_group": "Validation",
+    "is_active": true
+  },
+  {
+    "status_code": "EXCEPTION_RESOLVED",
+    "status_name": "Ngoại lệ đã xử lý",
+    "description": "Trạng thái: Ngoại lệ đã xử lý",
+    "status_group": "Validation",
+    "is_active": true
+  },
+  {
+    "status_code": "STANDARDIZED",
+    "status_name": "Đã chuẩn hóa",
+    "description": "Trạng thái: Đã chuẩn hóa",
+    "status_group": "Validation",
+    "is_active": true
+  },
+  {
+    "status_code": "PENDING_SAP",
+    "status_name": "Chờ gửi SAP",
+    "description": "Trạng thái: Chờ gửi SAP",
+    "status_group": "Integration",
+    "is_active": true
+  },
+  {
+    "status_code": "SENT_SAP",
+    "status_name": "Đã gửi SAP",
+    "description": "Trạng thái: Đã gửi SAP",
+    "status_group": "Integration",
+    "is_active": true
+  },
+  {
+    "status_code": "TECH_ACK_RECEIVED",
+    "status_name": "Đã nhận Technical ACK",
+    "description": "Trạng thái: Đã nhận Technical ACK",
+    "status_group": "Integration",
+    "is_active": true
+  },
+  {
+    "status_code": "SAP_ACCEPTED",
+    "status_name": "SAP đã chấp nhận",
+    "description": "Trạng thái: SAP đã chấp nhận",
+    "status_group": "Integration",
+    "is_active": true
+  },
+  {
+    "status_code": "SAP_REJECTED",
+    "status_name": "SAP từ chối",
+    "description": "Trạng thái: SAP từ chối",
+    "status_group": "Integration",
+    "is_active": true
+  },
+  {
+    "status_code": "COMPLETED",
+    "status_name": "Hoàn tất",
+    "description": "Trạng thái: Hoàn tất",
+    "status_group": "Order Processing",
+    "is_active": true
+  },
+  {
+    "status_code": "CLOSED",
+    "status_name": "Đã đóng",
+    "description": "Trạng thái: Đã đóng",
+    "status_group": "Order Processing",
+    "is_active": true
+  },
+  {
+    "status_code": "CANCELLED",
+    "status_name": "Đã hủy",
+    "description": "Trạng thái: Đã hủy",
+    "status_group": "Order Processing",
+    "is_active": true
+  },
+  {
+    "status_code": "REVISED",
+    "status_name": "Đã điều chỉnh",
+    "description": "Trạng thái: Đã điều chỉnh",
+    "status_group": "Order Processing",
+    "is_active": true
+  },
+  {
+    "status_code": "ON_HOLD",
+    "status_name": "Tạm giữ",
+    "description": "Trạng thái: Tạm giữ",
+    "status_group": "Order Processing",
+    "is_active": true
+  },
+  {
+    "status_code": "RETRY_PENDING",
+    "status_name": "Chờ gửi lại SAP",
+    "description": "Trạng thái: Chờ gửi lại SAP",
+    "status_group": "Integration",
+    "is_active": true
+  },
+  {
+    "status_code": "MANUAL_REVIEW",
+    "status_name": "Chờ rà soát thủ công",
+    "description": "Trạng thái: Chờ rà soát thủ công",
+    "status_group": "Validation",
+    "is_active": true
+  },
+  {
+    "status_code": "READY_FOR_SAP",
+    "status_name": "Sẵn sàng chuyển SAP",
+    "description": "PO đã qua kiểm tra và có thể chuyển SAP.",
+    "status_group": "Integration",
+    "is_active": true
+  },
+  {
+    "status_code": "PENDING_CORRECTION",
+    "status_name": "Cần bổ sung thông tin",
+    "description": "PO cần chỉnh sửa trước khi kiểm tra lại.",
+    "status_group": "Validation",
+    "is_active": true
+  }
+]

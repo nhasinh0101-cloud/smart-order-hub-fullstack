@@ -1,0 +1,296 @@
+[
+  {
+    "exception_id": "EXC001",
+    "po_id": "HUB-20261017-0015",
+    "version_id": "PV018",
+    "exception_type": "Missing_SKU",
+    "severity": "High",
+    "exception_description": "Không tìm thấy SKU tương ứng với mã sản phẩm khách hàng",
+    "exception_status": "Open",
+    "detected_at": {
+      "$date": "2026-10-17T00:05:00.000Z"
+    },
+    "resolved_at": null
+  },
+  {
+    "exception_id": "EXC002",
+    "po_id": "HUB-20261017-0016",
+    "version_id": "PV019",
+    "exception_type": "Invalid_UOM",
+    "severity": "Medium",
+    "exception_description": "Đơn vị tính không hợp lệ hoặc bị thiếu",
+    "exception_status": "In_Progress",
+    "detected_at": {
+      "$date": "2026-10-17T21:05:00.000Z"
+    },
+    "resolved_at": null
+  },
+  {
+    "exception_id": "EXC003",
+    "po_id": "HUB-20261018-0017",
+    "version_id": "PV020",
+    "exception_type": "Quantity_Mismatch",
+    "severity": "High",
+    "exception_description": "Số lượng không khớp giữa file PO và chứng từ đính kèm",
+    "exception_status": "Open",
+    "detected_at": {
+      "$date": "2026-10-18T18:05:00.000Z"
+    },
+    "resolved_at": null
+  },
+  {
+    "exception_id": "EXC004",
+    "po_id": "HUB-20261005-0001",
+    "version_id": "PV001",
+    "exception_type": "Price_Mismatch",
+    "severity": "Medium",
+    "exception_description": "Đơn giá trên PO khác bảng giá hiện hành",
+    "exception_status": "Resolved",
+    "detected_at": {
+      "$date": "2026-10-05T09:05:00.000Z"
+    },
+    "resolved_at": {
+      "$date": "2026-10-05T11:05:00.000Z"
+    }
+  },
+  {
+    "exception_id": "EXC005",
+    "po_id": "HUB-20261006-0002",
+    "version_id": "PV002",
+    "exception_type": "Quantity_Mismatch",
+    "severity": "Low",
+    "exception_description": "Số lượng không khớp giữa file PO và chứng từ đính kèm",
+    "exception_status": "Resolved",
+    "detected_at": {
+      "$date": "2026-10-06T06:05:00.000Z"
+    },
+    "resolved_at": {
+      "$date": "2026-10-06T08:05:00.000Z"
+    }
+  },
+  {
+    "exception_id": "EXC006",
+    "po_id": "HUB-20261007-0003",
+    "version_id": "PV003",
+    "exception_type": "Customer_Code_Unmapped",
+    "severity": "High",
+    "exception_description": "Mã sản phẩm khách hàng chưa được ánh xạ",
+    "exception_status": "Resolved",
+    "detected_at": {
+      "$date": "2026-10-07T03:05:00.000Z"
+    },
+    "resolved_at": {
+      "$date": "2026-10-07T05:05:00.000Z"
+    }
+  },
+  {
+    "exception_id": "EXC007",
+    "po_id": "HUB-20261008-0004",
+    "version_id": "PV004",
+    "exception_type": "Delivery_Date_Missing",
+    "severity": "Medium",
+    "exception_description": "Thiếu ngày giao hàng yêu cầu",
+    "exception_status": "Resolved",
+    "detected_at": {
+      "$date": "2026-10-08T00:05:00.000Z"
+    },
+    "resolved_at": {
+      "$date": "2026-10-08T02:05:00.000Z"
+    }
+  },
+  {
+    "exception_id": "EXC008",
+    "po_id": "HUB-20261008-0005",
+    "version_id": "PV005",
+    "exception_type": "Invalid_UOM",
+    "severity": "Low",
+    "exception_description": "Đơn vị tính không hợp lệ hoặc bị thiếu",
+    "exception_status": "Resolved",
+    "detected_at": {
+      "$date": "2026-10-08T16:05:00.000Z"
+    },
+    "resolved_at": {
+      "$date": "2026-10-08T18:05:00.000Z"
+    }
+  },
+  {
+    "exception_id": "EXC009",
+    "po_id": "HUB-20261009-0006",
+    "version_id": "PV006",
+    "exception_type": "Missing_SKU",
+    "severity": "High",
+    "exception_description": "Không tìm thấy SKU tương ứng với mã sản phẩm khách hàng",
+    "exception_status": "Resolved",
+    "detected_at": {
+      "$date": "2026-10-09T13:05:00.000Z"
+    },
+    "resolved_at": {
+      "$date": "2026-10-09T15:05:00.000Z"
+    }
+  },
+  {
+    "exception_id": "EXC010",
+    "po_id": "HUB-20261010-0007",
+    "version_id": "PV007",
+    "exception_type": "Price_Mismatch",
+    "severity": "Medium",
+    "exception_description": "Đơn giá trên PO khác bảng giá hiện hành",
+    "exception_status": "Resolved",
+    "detected_at": {
+      "$date": "2026-10-10T10:05:00.000Z"
+    },
+    "resolved_at": {
+      "$date": "2026-10-10T12:05:00.000Z"
+    }
+  },
+  {
+    "exception_id": "EXC011",
+    "po_id": "HUB-20261011-0008",
+    "version_id": "PV008",
+    "exception_type": "Quantity_Mismatch",
+    "severity": "Low",
+    "exception_description": "Số lượng không khớp giữa file PO và chứng từ đính kèm",
+    "exception_status": "Resolved",
+    "detected_at": {
+      "$date": "2026-10-11T07:05:00.000Z"
+    },
+    "resolved_at": {
+      "$date": "2026-10-11T09:05:00.000Z"
+    }
+  },
+  {
+    "exception_id": "EXC012",
+    "po_id": "HUB-20261012-0009",
+    "version_id": "PV009",
+    "exception_type": "Customer_Code_Unmapped",
+    "severity": "High",
+    "exception_description": "Mã sản phẩm khách hàng chưa được ánh xạ",
+    "exception_status": "Resolved",
+    "detected_at": {
+      "$date": "2026-10-12T04:05:00.000Z"
+    },
+    "resolved_at": {
+      "$date": "2026-10-12T06:05:00.000Z"
+    }
+  },
+  {
+    "exception_id": "EXC013",
+    "po_id": "HUB-20261012-0010",
+    "version_id": "PV010",
+    "exception_type": "Delivery_Date_Missing",
+    "severity": "Medium",
+    "exception_description": "Thiếu ngày giao hàng yêu cầu",
+    "exception_status": "Resolved",
+    "detected_at": {
+      "$date": "2026-10-12T20:05:00.000Z"
+    },
+    "resolved_at": {
+      "$date": "2026-10-12T22:05:00.000Z"
+    }
+  },
+  {
+    "exception_id": "EXC014",
+    "po_id": "HUB-20261013-0011",
+    "version_id": "PV011",
+    "exception_type": "Invalid_UOM",
+    "severity": "Low",
+    "exception_description": "Đơn vị tính không hợp lệ hoặc bị thiếu",
+    "exception_status": "Resolved",
+    "detected_at": {
+      "$date": "2026-10-13T17:05:00.000Z"
+    },
+    "resolved_at": {
+      "$date": "2026-10-13T19:05:00.000Z"
+    }
+  },
+  {
+    "exception_id": "EXC015",
+    "po_id": "HUB-20261014-0012",
+    "version_id": "PV012",
+    "exception_type": "Missing_SKU",
+    "severity": "High",
+    "exception_description": "Không tìm thấy SKU tương ứng với mã sản phẩm khách hàng",
+    "exception_status": "Resolved",
+    "detected_at": {
+      "$date": "2026-10-14T14:05:00.000Z"
+    },
+    "resolved_at": {
+      "$date": "2026-10-14T16:05:00.000Z"
+    }
+  },
+  {
+    "exception_id": "EXC016",
+    "po_id": "HUB-20261015-0013",
+    "version_id": "PV013",
+    "exception_type": "Price_Mismatch",
+    "severity": "Medium",
+    "exception_description": "Đơn giá trên PO khác bảng giá hiện hành",
+    "exception_status": "Resolved",
+    "detected_at": {
+      "$date": "2026-10-15T11:05:00.000Z"
+    },
+    "resolved_at": {
+      "$date": "2026-10-15T13:05:00.000Z"
+    }
+  },
+  {
+    "exception_id": "EXC017",
+    "po_id": "HUB-20261016-0014",
+    "version_id": "PV014",
+    "exception_type": "Quantity_Mismatch",
+    "severity": "Low",
+    "exception_description": "Số lượng không khớp giữa file PO và chứng từ đính kèm",
+    "exception_status": "Resolved",
+    "detected_at": {
+      "$date": "2026-10-16T08:05:00.000Z"
+    },
+    "resolved_at": {
+      "$date": "2026-10-16T10:05:00.000Z"
+    }
+  },
+  {
+    "exception_id": "EXC018",
+    "po_id": "HUB-20261005-0001",
+    "version_id": "PV015",
+    "exception_type": "Customer_Code_Unmapped",
+    "severity": "High",
+    "exception_description": "Mã sản phẩm khách hàng chưa được ánh xạ",
+    "exception_status": "Resolved",
+    "detected_at": {
+      "$date": "2026-10-08T09:05:00.000Z"
+    },
+    "resolved_at": {
+      "$date": "2026-10-08T11:05:00.000Z"
+    }
+  },
+  {
+    "exception_id": "EXC019",
+    "po_id": "HUB-20261006-0002",
+    "version_id": "PV016",
+    "exception_type": "Delivery_Date_Missing",
+    "severity": "Medium",
+    "exception_description": "Thiếu ngày giao hàng yêu cầu",
+    "exception_status": "Resolved",
+    "detected_at": {
+      "$date": "2026-10-09T06:05:00.000Z"
+    },
+    "resolved_at": {
+      "$date": "2026-10-09T08:05:00.000Z"
+    }
+  },
+  {
+    "exception_id": "EXC020",
+    "po_id": "HUB-20261007-0003",
+    "version_id": "PV017",
+    "exception_type": "Invalid_UOM",
+    "severity": "Low",
+    "exception_description": "Đơn vị tính không hợp lệ hoặc bị thiếu",
+    "exception_status": "Resolved",
+    "detected_at": {
+      "$date": "2026-10-10T03:05:00.000Z"
+    },
+    "resolved_at": {
+      "$date": "2026-10-10T05:05:00.000Z"
+    }
+  }
+]

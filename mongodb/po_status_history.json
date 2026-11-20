@@ -1,0 +1,282 @@
+[
+  {
+    "history_id": "HIS001",
+    "po_id": "HUB-20261005-0001",
+    "previous_status_code": "SAP_ACCEPTED",
+    "new_status_code": "COMPLETED",
+    "changed_by": "USR004",
+    "change_reason": "SAP đã tạo Sales Order, đơn hàng hoàn tất",
+    "changed_at": {
+      "$date": "2026-10-09T11:27:00.000Z"
+    },
+    "from_status": "SAP_ACCEPTED",
+    "to_status": "COMPLETED",
+    "remarks": "SAP đã tạo Sales Order, đơn hàng hoàn tất"
+  },
+  {
+    "history_id": "HIS002",
+    "po_id": "HUB-20261006-0002",
+    "previous_status_code": "SAP_ACCEPTED",
+    "new_status_code": "COMPLETED",
+    "changed_by": "USR002",
+    "change_reason": "SAP đã tạo Sales Order, đơn hàng hoàn tất",
+    "changed_at": {
+      "$date": "2026-10-10T08:27:00.000Z"
+    },
+    "from_status": "SAP_ACCEPTED",
+    "to_status": "COMPLETED",
+    "remarks": "SAP đã tạo Sales Order, đơn hàng hoàn tất"
+  },
+  {
+    "history_id": "HIS003",
+    "po_id": "HUB-20261007-0003",
+    "previous_status_code": "SAP_ACCEPTED",
+    "new_status_code": "COMPLETED",
+    "changed_by": "USR004",
+    "change_reason": "SAP đã tạo Sales Order, đơn hàng hoàn tất",
+    "changed_at": {
+      "$date": "2026-10-11T05:27:00.000Z"
+    },
+    "from_status": "SAP_ACCEPTED",
+    "to_status": "COMPLETED",
+    "remarks": "SAP đã tạo Sales Order, đơn hàng hoàn tất"
+  },
+  {
+    "history_id": "HIS004",
+    "po_id": "HUB-20261008-0004",
+    "previous_status_code": "SENT_SAP",
+    "new_status_code": "SAP_ACCEPTED",
+    "changed_by": "USR020",
+    "change_reason": "Nhận Business ACK thành công từ SAP",
+    "changed_at": {
+      "$date": "2026-10-08T02:57:00.000Z"
+    },
+    "from_status": "SENT_SAP",
+    "to_status": "SAP_ACCEPTED",
+    "remarks": "Nhận Business ACK thành công từ SAP"
+  },
+  {
+    "history_id": "HIS005",
+    "po_id": "HUB-20261008-0005",
+    "previous_status_code": "SENT_SAP",
+    "new_status_code": "SAP_ACCEPTED",
+    "changed_by": "USR020",
+    "change_reason": "Nhận Business ACK thành công từ SAP",
+    "changed_at": {
+      "$date": "2026-10-08T18:57:00.000Z"
+    },
+    "from_status": "SENT_SAP",
+    "to_status": "SAP_ACCEPTED",
+    "remarks": "Nhận Business ACK thành công từ SAP"
+  },
+  {
+    "history_id": "HIS006",
+    "po_id": "HUB-20261009-0006",
+    "previous_status_code": "SENT_SAP",
+    "new_status_code": "SAP_ACCEPTED",
+    "changed_by": "USR020",
+    "change_reason": "Nhận Business ACK thành công từ SAP",
+    "changed_at": {
+      "$date": "2026-10-09T15:57:00.000Z"
+    },
+    "from_status": "SENT_SAP",
+    "to_status": "SAP_ACCEPTED",
+    "remarks": "Nhận Business ACK thành công từ SAP"
+  },
+  {
+    "history_id": "HIS007",
+    "po_id": "HUB-20261010-0007",
+    "previous_status_code": "SAP_ACCEPTED",
+    "new_status_code": "COMPLETED",
+    "changed_by": "USR004",
+    "change_reason": "SAP đã tạo Sales Order, đơn hàng hoàn tất",
+    "changed_at": {
+      "$date": "2026-10-12T12:27:00.000Z"
+    },
+    "from_status": "SAP_ACCEPTED",
+    "to_status": "COMPLETED",
+    "remarks": "SAP đã tạo Sales Order, đơn hàng hoàn tất"
+  },
+  {
+    "history_id": "HIS008",
+    "po_id": "HUB-20261011-0008",
+    "previous_status_code": "SAP_ACCEPTED",
+    "new_status_code": "COMPLETED",
+    "changed_by": "USR002",
+    "change_reason": "SAP đã tạo Sales Order, đơn hàng hoàn tất",
+    "changed_at": {
+      "$date": "2026-10-13T09:27:00.000Z"
+    },
+    "from_status": "SAP_ACCEPTED",
+    "to_status": "COMPLETED",
+    "remarks": "SAP đã tạo Sales Order, đơn hàng hoàn tất"
+  },
+  {
+    "history_id": "HIS009",
+    "po_id": "HUB-20261012-0009",
+    "previous_status_code": "SAP_ACCEPTED",
+    "new_status_code": "COMPLETED",
+    "changed_by": "USR004",
+    "change_reason": "SAP đã tạo Sales Order, đơn hàng hoàn tất",
+    "changed_at": {
+      "$date": "2026-10-14T06:27:00.000Z"
+    },
+    "from_status": "SAP_ACCEPTED",
+    "to_status": "COMPLETED",
+    "remarks": "SAP đã tạo Sales Order, đơn hàng hoàn tất"
+  },
+  {
+    "history_id": "HIS010",
+    "po_id": "HUB-20261012-0010",
+    "previous_status_code": "PENDING_SAP",
+    "new_status_code": "SENT_SAP",
+    "changed_by": "USR020",
+    "change_reason": "Đã gửi giao dịch sang SAP",
+    "changed_at": {
+      "$date": "2026-10-12T22:25:00.000Z"
+    },
+    "from_status": "PENDING_SAP",
+    "to_status": "SENT_SAP",
+    "remarks": "Đã gửi giao dịch sang SAP"
+  },
+  {
+    "history_id": "HIS011",
+    "po_id": "HUB-20261013-0011",
+    "previous_status_code": "STANDARDIZED",
+    "new_status_code": "PENDING_SAP",
+    "changed_by": "USR020",
+    "change_reason": "Dữ liệu chuẩn hóa hợp lệ, chờ gửi SAP",
+    "changed_at": {
+      "$date": "2026-10-13T19:20:00.000Z"
+    },
+    "from_status": "STANDARDIZED",
+    "to_status": "PENDING_SAP",
+    "remarks": "Dữ liệu chuẩn hóa hợp lệ, chờ gửi SAP"
+  },
+  {
+    "history_id": "HIS012",
+    "po_id": "HUB-20261014-0012",
+    "previous_status_code": "SENT_SAP",
+    "new_status_code": "SAP_ACCEPTED",
+    "changed_by": "USR020",
+    "change_reason": "Nhận Business ACK thành công từ SAP",
+    "changed_at": {
+      "$date": "2026-10-14T16:57:00.000Z"
+    },
+    "from_status": "SENT_SAP",
+    "to_status": "SAP_ACCEPTED",
+    "remarks": "Nhận Business ACK thành công từ SAP"
+  },
+  {
+    "history_id": "HIS013",
+    "po_id": "HUB-20261015-0013",
+    "previous_status_code": "SAP_ACCEPTED",
+    "new_status_code": "COMPLETED",
+    "changed_by": "USR004",
+    "change_reason": "SAP đã tạo Sales Order, đơn hàng hoàn tất",
+    "changed_at": {
+      "$date": "2026-10-16T13:27:00.000Z"
+    },
+    "from_status": "SAP_ACCEPTED",
+    "to_status": "COMPLETED",
+    "remarks": "SAP đã tạo Sales Order, đơn hàng hoàn tất"
+  },
+  {
+    "history_id": "HIS014",
+    "po_id": "HUB-20261016-0014",
+    "previous_status_code": "COMPLETED",
+    "new_status_code": "CLOSED",
+    "changed_by": "USR002",
+    "change_reason": "Đơn hàng đã giao và đóng",
+    "changed_at": {
+      "$date": "2026-10-19T10:27:00.000Z"
+    },
+    "from_status": "COMPLETED",
+    "to_status": "CLOSED",
+    "remarks": "Đơn hàng đã giao và đóng"
+  },
+  {
+    "history_id": "HIS015",
+    "po_id": "HUB-20261017-0015",
+    "previous_status_code": "VALIDATING",
+    "new_status_code": "EXCEPTION_OPEN",
+    "changed_by": "USR020",
+    "change_reason": "Phát hiện ngoại lệ khi kiểm tra dữ liệu",
+    "changed_at": {
+      "$date": "2026-10-17T00:05:00.000Z"
+    },
+    "from_status": "VALIDATING",
+    "to_status": "EXCEPTION_OPEN",
+    "remarks": "Phát hiện ngoại lệ khi kiểm tra dữ liệu"
+  },
+  {
+    "history_id": "HIS016",
+    "po_id": "HUB-20261017-0016",
+    "previous_status_code": "VALIDATING",
+    "new_status_code": "EXCEPTION_OPEN",
+    "changed_by": "USR020",
+    "change_reason": "Phát hiện ngoại lệ khi kiểm tra dữ liệu",
+    "changed_at": {
+      "$date": "2026-10-17T21:05:00.000Z"
+    },
+    "from_status": "VALIDATING",
+    "to_status": "EXCEPTION_OPEN",
+    "remarks": "Phát hiện ngoại lệ khi kiểm tra dữ liệu"
+  },
+  {
+    "history_id": "HIS017",
+    "po_id": "HUB-20261018-0017",
+    "previous_status_code": "VALIDATING",
+    "new_status_code": "EXCEPTION_OPEN",
+    "changed_by": "USR020",
+    "change_reason": "Phát hiện ngoại lệ khi kiểm tra dữ liệu",
+    "changed_at": {
+      "$date": "2026-10-18T18:05:00.000Z"
+    },
+    "from_status": "VALIDATING",
+    "to_status": "EXCEPTION_OPEN",
+    "remarks": "Phát hiện ngoại lệ khi kiểm tra dữ liệu"
+  },
+  {
+    "history_id": "HIS018",
+    "po_id": "HUB-20261019-0018",
+    "previous_status_code": null,
+    "new_status_code": "NEW",
+    "changed_by": "USR020",
+    "change_reason": "Hệ thống tạo bản ghi PO mới",
+    "changed_at": {
+      "$date": "2026-10-19T15:00:00.000Z"
+    },
+    "from_status": null,
+    "to_status": "NEW",
+    "remarks": "Hệ thống tạo bản ghi PO mới"
+  },
+  {
+    "history_id": "HIS019",
+    "po_id": "HUB-20261020-0019",
+    "previous_status_code": "NEW",
+    "new_status_code": "RECEIVED",
+    "changed_by": "USR020",
+    "change_reason": "Hệ thống tiếp nhận PO",
+    "changed_at": {
+      "$date": "2026-10-20T12:00:00.000Z"
+    },
+    "from_status": "NEW",
+    "to_status": "RECEIVED",
+    "remarks": "Hệ thống tiếp nhận PO"
+  },
+  {
+    "history_id": "HIS020",
+    "po_id": "HUB-20261021-0020",
+    "previous_status_code": null,
+    "new_status_code": "DRAFT",
+    "changed_by": "USR002",
+    "change_reason": "Khách hàng lưu nháp PO trên Portal",
+    "changed_at": {
+      "$date": "2026-10-21T04:00:00.000Z"
+    },
+    "from_status": null,
+    "to_status": "DRAFT",
+    "remarks": "Khách hàng lưu nháp PO trên Portal"
+  }
+]

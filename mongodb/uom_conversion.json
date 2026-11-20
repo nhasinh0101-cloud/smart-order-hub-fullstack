@@ -1,0 +1,202 @@
+[
+  {
+    "conversion_id": "CNV001",
+    "from_uom_id": "UOM002",
+    "to_uom_id": "UOM001",
+    "conversion_factor": 24,
+    "created_at": {
+      "$date": "2026-08-12T09:01:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV002",
+    "from_uom_id": "UOM003",
+    "to_uom_id": "UOM001",
+    "conversion_factor": 12,
+    "created_at": {
+      "$date": "2026-08-12T09:02:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV003",
+    "from_uom_id": "UOM004",
+    "to_uom_id": "UOM001",
+    "conversion_factor": 6,
+    "created_at": {
+      "$date": "2026-08-12T09:03:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV004",
+    "from_uom_id": "UOM010",
+    "to_uom_id": "UOM001",
+    "conversion_factor": 48,
+    "created_at": {
+      "$date": "2026-08-12T09:04:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV005",
+    "from_uom_id": "UOM011",
+    "to_uom_id": "UOM001",
+    "conversion_factor": 12,
+    "created_at": {
+      "$date": "2026-08-12T09:05:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV006",
+    "from_uom_id": "UOM012",
+    "to_uom_id": "UOM001",
+    "conversion_factor": 3,
+    "created_at": {
+      "$date": "2026-08-12T09:06:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV007",
+    "from_uom_id": "UOM019",
+    "to_uom_id": "UOM001",
+    "conversion_factor": 30,
+    "created_at": {
+      "$date": "2026-08-12T09:07:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV008",
+    "from_uom_id": "UOM020",
+    "to_uom_id": "UOM001",
+    "conversion_factor": 10,
+    "created_at": {
+      "$date": "2026-08-12T09:08:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV009",
+    "from_uom_id": "UOM018",
+    "to_uom_id": "UOM001",
+    "conversion_factor": 2,
+    "created_at": {
+      "$date": "2026-08-12T09:09:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV010",
+    "from_uom_id": "UOM009",
+    "to_uom_id": "UOM002",
+    "conversion_factor": 60,
+    "created_at": {
+      "$date": "2026-08-12T09:10:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV011",
+    "from_uom_id": "UOM009",
+    "to_uom_id": "UOM010",
+    "conversion_factor": 40,
+    "created_at": {
+      "$date": "2026-08-12T09:11:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV012",
+    "from_uom_id": "UOM005",
+    "to_uom_id": "UOM006",
+    "conversion_factor": 1000,
+    "created_at": {
+      "$date": "2026-08-12T09:12:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV013",
+    "from_uom_id": "UOM007",
+    "to_uom_id": "UOM008",
+    "conversion_factor": 1000,
+    "created_at": {
+      "$date": "2026-08-12T09:13:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV014",
+    "from_uom_id": "UOM016",
+    "to_uom_id": "UOM017",
+    "conversion_factor": 50,
+    "created_at": {
+      "$date": "2026-08-12T09:14:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV015",
+    "from_uom_id": "UOM002",
+    "to_uom_id": "UOM003",
+    "conversion_factor": 2,
+    "created_at": {
+      "$date": "2026-08-12T09:15:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV016",
+    "from_uom_id": "UOM001",
+    "to_uom_id": "UOM002",
+    "conversion_factor": 0.041667,
+    "created_at": {
+      "$date": "2026-08-12T09:16:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV017",
+    "from_uom_id": "UOM001",
+    "to_uom_id": "UOM003",
+    "conversion_factor": 0.083333,
+    "created_at": {
+      "$date": "2026-08-12T09:17:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV018",
+    "from_uom_id": "UOM006",
+    "to_uom_id": "UOM005",
+    "conversion_factor": 0.001,
+    "created_at": {
+      "$date": "2026-08-12T09:18:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV019",
+    "from_uom_id": "UOM008",
+    "to_uom_id": "UOM007",
+    "conversion_factor": 0.001,
+    "created_at": {
+      "$date": "2026-08-12T09:19:00.000Z"
+    },
+    "is_active": true
+  },
+  {
+    "conversion_id": "CNV020",
+    "from_uom_id": "UOM013",
+    "to_uom_id": "UOM005",
+    "conversion_factor": 25,
+    "created_at": {
+      "$date": "2026-08-12T09:20:00.000Z"
+    },
+    "is_active": true
+  }
+]

@@ -1,0 +1,262 @@
+[
+  {
+    "customer_id": "CUS001",
+    "sap_customer_code": "C100001",
+    "customer_name": "Công ty TNHH Siêu Thị Bình Minh",
+    "tax_code": "0344112965",
+    "email": "purchasing@binhminh.vn",
+    "phone": "02838425818",
+    "address": "25 Nguyễn Huệ, Quận 1, TP.HCM",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-10T10:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS002",
+    "sap_customer_code": "C100002",
+    "customer_name": "Công ty CP Thương Mại Phú Thịnh",
+    "tax_code": "0374438948",
+    "email": "purchasing@phuthinh.vn",
+    "phone": "02833495085",
+    "address": "112 Lê Văn Việt, TP. Thủ Đức, TP.HCM",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-10T11:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS003",
+    "sap_customer_code": "C100003",
+    "customer_name": "Công ty TNHH Phân Phối Hưng Phát",
+    "tax_code": "0389441831",
+    "email": "purchasing@hungphat.vn",
+    "phone": "02834410187",
+    "address": "88 Điện Biên Phủ, Bình Thạnh, TP.HCM",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-10T12:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS004",
+    "sap_customer_code": "C100004",
+    "customer_name": "Công ty CP Bán Lẻ An Khang Mart",
+    "tax_code": "0392660167",
+    "email": "purchasing@ankhangmart.vn",
+    "phone": "02838489388",
+    "address": "45 Trần Hưng Đạo, Quận 5, TP.HCM",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-10T13:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS005",
+    "sap_customer_code": "C100005",
+    "customer_name": "Công ty TNHH Đại Lý Minh Long",
+    "tax_code": "0341863178",
+    "email": "purchasing@minhlong.vn",
+    "phone": "02835353232",
+    "address": "17 Quang Trung, Gò Vấp, TP.HCM",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-10T14:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS006",
+    "sap_customer_code": "C100006",
+    "customer_name": "Công ty TNHH Thực Phẩm Sài Gòn Xanh",
+    "tax_code": "0359964824",
+    "email": "purchasing@saigonxanh.vn",
+    "phone": "02830617956",
+    "address": "301 Võ Văn Tần, Quận 3, TP.HCM",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-10T15:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS007",
+    "sap_customer_code": "C100007",
+    "customer_name": "Công ty CP Siêu Thị Tiện Lợi Gia Phúc",
+    "tax_code": "0336701563",
+    "email": "purchasing@giaphuc.vn",
+    "phone": "02833055070",
+    "address": "9 Hùng Vương, Biên Hòa, Đồng Nai",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-10T16:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS008",
+    "sap_customer_code": "C100008",
+    "customer_name": "Công ty TNHH MTV Thương Mại Kim Ngân",
+    "tax_code": "0364152216",
+    "email": "purchasing@kimngan.vn",
+    "phone": "02832704979",
+    "address": "64 Nguyễn Trãi, Quận 1, TP.HCM",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-10T17:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS009",
+    "sap_customer_code": "C100009",
+    "customer_name": "Công ty TNHH Phân Phối Đại Nam",
+    "tax_code": "0395439217",
+    "email": "purchasing@dainam.vn",
+    "phone": "02834667390",
+    "address": "215 Phạm Văn Đồng, Thủ Đức, TP.HCM",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-10T18:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS010",
+    "sap_customer_code": "C100010",
+    "customer_name": "Công ty CP Chuỗi Cửa Hàng Việt Tín",
+    "tax_code": "0353999836",
+    "email": "purchasing@viettin.vn",
+    "phone": "02836322340",
+    "address": "73 Lý Thường Kiệt, Quận 10, TP.HCM",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-10T19:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS011",
+    "sap_customer_code": "C100011",
+    "customer_name": "Công ty TNHH Bách Hóa Hồng Phát",
+    "tax_code": "0332648173",
+    "email": "purchasing@hongphat.vn",
+    "phone": "02834434903",
+    "address": "12 Ngô Quyền, Hải Phòng",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-10T20:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS012",
+    "sap_customer_code": "C100012",
+    "customer_name": "Công ty TNHH Thương Mại Dịch Vụ Tân Tiến",
+    "tax_code": "0325445601",
+    "email": "purchasing@tantien.vn",
+    "phone": "02838904024",
+    "address": "58 Lê Lợi, Đà Nẵng",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-10T21:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS013",
+    "sap_customer_code": "C100013",
+    "customer_name": "Công ty CP Phân Phối Nam Việt",
+    "tax_code": "0316519166",
+    "email": "purchasing@namviet.vn",
+    "phone": "02836036092",
+    "address": "190 Cách Mạng Tháng 8, Cần Thơ",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-10T22:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS014",
+    "sap_customer_code": "C100014",
+    "customer_name": "Công ty TNHH Siêu Thị Hoàng Gia",
+    "tax_code": "0370805810",
+    "email": "purchasing@hoanggia.vn",
+    "phone": "02839314376",
+    "address": "36 Trần Phú, Nha Trang, Khánh Hòa",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-10T23:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS015",
+    "sap_customer_code": "C100015",
+    "customer_name": "Công ty TNHH Đại Lý Thành Công",
+    "tax_code": "0379988171",
+    "email": "purchasing@thanhcong.vn",
+    "phone": "02839731518",
+    "address": "101 Nguyễn Văn Linh, Bình Dương",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-11T00:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS016",
+    "sap_customer_code": "C100016",
+    "customer_name": "Công ty CP Thương Mại Tuấn Phát",
+    "tax_code": "0324040355",
+    "email": "purchasing@tuanphat.vn",
+    "phone": "02834228388",
+    "address": "27 Láng Hạ, Đống Đa, Hà Nội",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-11T01:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS017",
+    "sap_customer_code": "C100017",
+    "customer_name": "Công ty TNHH Bán Lẻ Mai Anh",
+    "tax_code": "0381900607",
+    "email": "purchasing@maianh.vn",
+    "phone": "02836614524",
+    "address": "5 Phan Chu Trinh, Huế",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-11T02:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS018",
+    "sap_customer_code": "C100018",
+    "customer_name": "Công ty TNHH Phân Phối Long Hải",
+    "tax_code": "0359857352",
+    "email": "purchasing@longhai.vn",
+    "phone": "02834441837",
+    "address": "83 Hai Bà Trưng, Vũng Tàu",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-11T03:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS019",
+    "sap_customer_code": "C100019",
+    "customer_name": "Công ty CP Tiêu Dùng Đồng Tâm",
+    "tax_code": "0360430939",
+    "email": "purchasing@dongtam.vn",
+    "phone": "02836189861",
+    "address": "140 Nguyễn Thị Minh Khai, Quận 3, TP.HCM",
+    "customer_status": "Active",
+    "created_at": {
+      "$date": "2026-08-11T04:00:00.000Z"
+    }
+  },
+  {
+    "customer_id": "CUS020",
+    "sap_customer_code": "C100020",
+    "customer_name": "Công ty TNHH Thương Mại Quang Vinh",
+    "tax_code": "0387492016",
+    "email": "purchasing@quangvinh.vn",
+    "phone": "02832452752",
+    "address": "22 Lê Duẩn, Hà Nội",
+    "customer_status": "Inactive",
+    "created_at": {
+      "$date": "2026-08-11T05:00:00.000Z"
+    }
+  }
+]

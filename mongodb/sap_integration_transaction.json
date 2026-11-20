@@ -1,0 +1,331 @@
+[
+  {
+    "transaction_id": "TXN001",
+    "po_id": "HUB-20261005-0001",
+    "standardized_po_id": "SPO001",
+    "transaction_type": "Create_Sales_Order",
+    "transaction_status": "SUCCESS",
+    "request_id": "REQ-20261005-0001",
+    "sap_sales_order_id": "4500000101",
+    "sent_at": {
+      "$date": "2026-10-05T11:25:00.000Z"
+    },
+    "completed_at": {
+      "$date": "2026-10-05T11:27:00.000Z"
+    },
+    "error_message": null,
+    "sap_business_result": "CREATED_SO"
+  },
+  {
+    "transaction_id": "TXN002",
+    "po_id": "HUB-20261006-0002",
+    "standardized_po_id": "SPO002",
+    "transaction_type": "Create_Sales_Order",
+    "transaction_status": "SUCCESS",
+    "request_id": "REQ-20261006-0002",
+    "sap_sales_order_id": "4500000102",
+    "sent_at": {
+      "$date": "2026-10-06T08:25:00.000Z"
+    },
+    "completed_at": {
+      "$date": "2026-10-06T08:27:00.000Z"
+    },
+    "error_message": null,
+    "sap_business_result": "CREATED_SO"
+  },
+  {
+    "transaction_id": "TXN003",
+    "po_id": "HUB-20261007-0003",
+    "standardized_po_id": "SPO003",
+    "transaction_type": "Create_Sales_Order",
+    "transaction_status": "SUCCESS",
+    "request_id": "REQ-20261007-0003",
+    "sap_sales_order_id": "4500000103",
+    "sent_at": {
+      "$date": "2026-10-07T05:25:00.000Z"
+    },
+    "completed_at": {
+      "$date": "2026-10-07T05:27:00.000Z"
+    },
+    "error_message": null,
+    "sap_business_result": "CREATED_SO"
+  },
+  {
+    "transaction_id": "TXN004",
+    "po_id": "HUB-20261008-0004",
+    "standardized_po_id": "SPO004",
+    "transaction_type": "Create_Sales_Order",
+    "transaction_status": "SUCCESS",
+    "request_id": "REQ-20261008-0004",
+    "sap_sales_order_id": "4500000104",
+    "sent_at": {
+      "$date": "2026-10-08T02:25:00.000Z"
+    },
+    "completed_at": {
+      "$date": "2026-10-08T02:27:00.000Z"
+    },
+    "error_message": null,
+    "sap_business_result": "CREATED_SO"
+  },
+  {
+    "transaction_id": "TXN005",
+    "po_id": "HUB-20261008-0005",
+    "standardized_po_id": "SPO005",
+    "transaction_type": "Create_Sales_Order",
+    "transaction_status": "SUCCESS",
+    "request_id": "REQ-20261008-0005",
+    "sap_sales_order_id": "4500000105",
+    "sent_at": {
+      "$date": "2026-10-08T18:25:00.000Z"
+    },
+    "completed_at": {
+      "$date": "2026-10-08T18:27:00.000Z"
+    },
+    "error_message": null,
+    "sap_business_result": "CREATED_SO"
+  },
+  {
+    "transaction_id": "TXN006",
+    "po_id": "HUB-20261009-0006",
+    "standardized_po_id": "SPO006",
+    "transaction_type": "Create_Sales_Order",
+    "transaction_status": "SUCCESS",
+    "request_id": "REQ-20261009-0006",
+    "sap_sales_order_id": "4500000106",
+    "sent_at": {
+      "$date": "2026-10-09T15:25:00.000Z"
+    },
+    "completed_at": {
+      "$date": "2026-10-09T15:27:00.000Z"
+    },
+    "error_message": null,
+    "sap_business_result": "CREATED_SO"
+  },
+  {
+    "transaction_id": "TXN007",
+    "po_id": "HUB-20261010-0007",
+    "standardized_po_id": "SPO007",
+    "transaction_type": "Create_Sales_Order",
+    "transaction_status": "SUCCESS",
+    "request_id": "REQ-20261011-0007",
+    "sap_sales_order_id": "4500000107",
+    "sent_at": {
+      "$date": "2026-10-11T12:25:00.000Z"
+    },
+    "completed_at": {
+      "$date": "2026-10-11T12:27:00.000Z"
+    },
+    "error_message": null,
+    "sap_business_result": "CREATED_SO"
+  },
+  {
+    "transaction_id": "TXN008",
+    "po_id": "HUB-20261011-0008",
+    "standardized_po_id": "SPO008",
+    "transaction_type": "Create_Sales_Order",
+    "transaction_status": "SUCCESS",
+    "request_id": "REQ-20261012-0008",
+    "sap_sales_order_id": "4500000108",
+    "sent_at": {
+      "$date": "2026-10-12T09:25:00.000Z"
+    },
+    "completed_at": {
+      "$date": "2026-10-12T09:27:00.000Z"
+    },
+    "error_message": null,
+    "sap_business_result": "CREATED_SO"
+  },
+  {
+    "transaction_id": "TXN009",
+    "po_id": "HUB-20261012-0009",
+    "standardized_po_id": "SPO009",
+    "transaction_type": "Create_Sales_Order",
+    "transaction_status": "SUCCESS",
+    "request_id": "REQ-20261013-0009",
+    "sap_sales_order_id": "4500000109",
+    "sent_at": {
+      "$date": "2026-10-13T06:25:00.000Z"
+    },
+    "completed_at": {
+      "$date": "2026-10-13T06:27:00.000Z"
+    },
+    "error_message": null,
+    "sap_business_result": "CREATED_SO"
+  },
+  {
+    "transaction_id": "TXN010",
+    "po_id": "HUB-20261012-0010",
+    "standardized_po_id": "SPO010",
+    "transaction_type": "Create_Sales_Order",
+    "transaction_status": "SENT",
+    "request_id": "REQ-20261012-0010",
+    "sap_sales_order_id": null,
+    "sent_at": {
+      "$date": "2026-10-12T22:25:00.000Z"
+    },
+    "completed_at": null,
+    "error_message": null
+  },
+  {
+    "transaction_id": "TXN011",
+    "po_id": "HUB-20261013-0011",
+    "standardized_po_id": "SPO011",
+    "transaction_type": "Create_Sales_Order",
+    "transaction_status": "PENDING",
+    "request_id": "REQ-20261013-0011",
+    "sap_sales_order_id": null,
+    "sent_at": null,
+    "completed_at": null,
+    "error_message": null
+  },
+  {
+    "transaction_id": "TXN012",
+    "po_id": "HUB-20261014-0012",
+    "standardized_po_id": "SPO012",
+    "transaction_type": "Create_Sales_Order",
+    "transaction_status": "SUCCESS",
+    "request_id": "REQ-20261014-0012",
+    "sap_sales_order_id": "4500000112",
+    "sent_at": {
+      "$date": "2026-10-14T16:25:00.000Z"
+    },
+    "completed_at": {
+      "$date": "2026-10-14T16:27:00.000Z"
+    },
+    "error_message": null,
+    "sap_business_result": "CREATED_SO"
+  },
+  {
+    "transaction_id": "TXN013",
+    "po_id": "HUB-20261015-0013",
+    "standardized_po_id": "SPO013",
+    "transaction_type": "Create_Sales_Order",
+    "transaction_status": "SUCCESS",
+    "request_id": "REQ-20261015-0013",
+    "sap_sales_order_id": "4500000113",
+    "sent_at": {
+      "$date": "2026-10-15T13:25:00.000Z"
+    },
+    "completed_at": {
+      "$date": "2026-10-15T13:27:00.000Z"
+    },
+    "error_message": null,
+    "sap_business_result": "CREATED_SO"
+  },
+  {
+    "transaction_id": "TXN014",
+    "po_id": "HUB-20261016-0014",
+    "standardized_po_id": "SPO014",
+    "transaction_type": "Create_Sales_Order",
+    "transaction_status": "SUCCESS",
+    "request_id": "REQ-20261016-0014",
+    "sap_sales_order_id": "4500000114",
+    "sent_at": {
+      "$date": "2026-10-16T10:25:00.000Z"
+    },
+    "completed_at": {
+      "$date": "2026-10-16T10:27:00.000Z"
+    },
+    "error_message": null,
+    "sap_business_result": "CREATED_SO"
+  },
+  {
+    "transaction_id": "TXN015",
+    "po_id": "HUB-20261005-0001",
+    "standardized_po_id": "SPO015",
+    "transaction_type": "Update_Sales_Order",
+    "transaction_status": "SUCCESS",
+    "request_id": "REQ-20261008-0015",
+    "sap_sales_order_id": "4500000101",
+    "sent_at": {
+      "$date": "2026-10-08T11:25:00.000Z"
+    },
+    "completed_at": {
+      "$date": "2026-10-08T11:27:00.000Z"
+    },
+    "error_message": null,
+    "sap_business_result": "CREATED_SO"
+  },
+  {
+    "transaction_id": "TXN016",
+    "po_id": "HUB-20261006-0002",
+    "standardized_po_id": "SPO016",
+    "transaction_type": "Update_Sales_Order",
+    "transaction_status": "SUCCESS",
+    "request_id": "REQ-20261009-0016",
+    "sap_sales_order_id": "4500000102",
+    "sent_at": {
+      "$date": "2026-10-09T08:25:00.000Z"
+    },
+    "completed_at": {
+      "$date": "2026-10-09T08:27:00.000Z"
+    },
+    "error_message": null,
+    "sap_business_result": "CREATED_SO"
+  },
+  {
+    "transaction_id": "TXN017",
+    "po_id": "HUB-20261007-0003",
+    "standardized_po_id": "SPO017",
+    "transaction_type": "Update_Sales_Order",
+    "transaction_status": "SUCCESS",
+    "request_id": "REQ-20261010-0017",
+    "sap_sales_order_id": "4500000103",
+    "sent_at": {
+      "$date": "2026-10-10T05:25:00.000Z"
+    },
+    "completed_at": {
+      "$date": "2026-10-10T05:27:00.000Z"
+    },
+    "error_message": null,
+    "sap_business_result": "CREATED_SO"
+  },
+  {
+    "transaction_id": "TXN018",
+    "po_id": "HUB-20261010-0007",
+    "standardized_po_id": "SPO007",
+    "transaction_type": "Create_Sales_Order",
+    "transaction_status": "FAILED",
+    "request_id": "REQ-20261010-0018",
+    "sap_sales_order_id": null,
+    "sent_at": {
+      "$date": "2026-10-10T12:25:00.000Z"
+    },
+    "completed_at": {
+      "$date": "2026-10-10T12:28:00.000Z"
+    },
+    "error_message": "Business ACK error: material not found in plant 1100"
+  },
+  {
+    "transaction_id": "TXN019",
+    "po_id": "HUB-20261011-0008",
+    "standardized_po_id": "SPO008",
+    "transaction_type": "Create_Sales_Order",
+    "transaction_status": "FAILED",
+    "request_id": "REQ-20261011-0019",
+    "sap_sales_order_id": null,
+    "sent_at": {
+      "$date": "2026-10-11T09:25:00.000Z"
+    },
+    "completed_at": {
+      "$date": "2026-10-11T09:28:00.000Z"
+    },
+    "error_message": "Business ACK error: credit block on sold-to party"
+  },
+  {
+    "transaction_id": "TXN020",
+    "po_id": "HUB-20261012-0009",
+    "standardized_po_id": "SPO009",
+    "transaction_type": "Create_Sales_Order",
+    "transaction_status": "FAILED",
+    "request_id": "REQ-20261012-0020",
+    "sap_sales_order_id": null,
+    "sent_at": {
+      "$date": "2026-10-12T06:25:00.000Z"
+    },
+    "completed_at": {
+      "$date": "2026-10-12T06:28:00.000Z"
+    },
+    "error_message": "Timeout waiting for SAP response after 30s"
+  }
+]

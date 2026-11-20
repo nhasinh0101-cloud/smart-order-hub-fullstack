@@ -1,0 +1,462 @@
+[
+  {
+    "po_id": "HUB-20261005-0001",
+    "customer_id": "CUS001",
+    "customer_reference_po": "PO-KH001-2026-1003",
+    "po_source": "File Import",
+    "current_status_code": "COMPLETED",
+    "sap_sales_order_id": "4500000101",
+    "received_at": {
+      "$date": "2026-10-05T09:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-05T09:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-09T11:27:00.000Z"
+    },
+    "hub_order_id": "HUB-20261005-0001",
+    "customer_po_number": "PO-KH001-2026-1003",
+    "intake_channel": "EXCEL_UPLOAD",
+    "current_version": "V2",
+    "currency": "VND",
+    "total_amount": 109440000
+  },
+  {
+    "po_id": "HUB-20261006-0002",
+    "customer_id": "CUS002",
+    "customer_reference_po": "PO-KH002-2026-1006",
+    "po_source": "File Import",
+    "current_status_code": "COMPLETED",
+    "sap_sales_order_id": "4500000102",
+    "received_at": {
+      "$date": "2026-10-06T06:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-06T06:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-10T08:27:00.000Z"
+    },
+    "hub_order_id": "HUB-20261006-0002",
+    "customer_po_number": "PO-KH002-2026-1006",
+    "intake_channel": "EXCEL_UPLOAD",
+    "current_version": "V2",
+    "currency": "VND",
+    "total_amount": 31320000
+  },
+  {
+    "po_id": "HUB-20261007-0003",
+    "customer_id": "CUS003",
+    "customer_reference_po": "PO-KH003-2026-1009",
+    "po_source": "Portal",
+    "current_status_code": "COMPLETED",
+    "sap_sales_order_id": "4500000103",
+    "received_at": {
+      "$date": "2026-10-07T03:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-07T03:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-11T05:27:00.000Z"
+    },
+    "hub_order_id": "HUB-20261007-0003",
+    "customer_po_number": "PO-KH003-2026-1009",
+    "intake_channel": "PORTAL_FORM",
+    "current_version": "V2",
+    "currency": "VND",
+    "total_amount": 7560000
+  },
+  {
+    "po_id": "HUB-20261008-0004",
+    "customer_id": "CUS004",
+    "customer_reference_po": "PO-KH004-2026-1012",
+    "po_source": "File Import",
+    "current_status_code": "SAP_ACCEPTED",
+    "sap_sales_order_id": "4500000104",
+    "received_at": {
+      "$date": "2026-10-08T00:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-08T00:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-08T02:57:00.000Z"
+    },
+    "hub_order_id": "HUB-20261008-0004",
+    "customer_po_number": "PO-KH004-2026-1012",
+    "intake_channel": "EXCEL_UPLOAD",
+    "current_version": "V1",
+    "currency": "VND",
+    "total_amount": 3534000
+  },
+  {
+    "po_id": "HUB-20261008-0005",
+    "customer_id": "CUS005",
+    "customer_reference_po": "PO-KH005-2026-1015",
+    "po_source": "File Import",
+    "current_status_code": "SAP_ACCEPTED",
+    "sap_sales_order_id": "4500000105",
+    "received_at": {
+      "$date": "2026-10-08T16:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-08T16:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-08T18:57:00.000Z"
+    },
+    "hub_order_id": "HUB-20261008-0005",
+    "customer_po_number": "PO-KH005-2026-1015",
+    "intake_channel": "EXCEL_UPLOAD",
+    "current_version": "V1",
+    "currency": "VND",
+    "total_amount": 175500000
+  },
+  {
+    "po_id": "HUB-20261009-0006",
+    "customer_id": "CUS006",
+    "customer_reference_po": "PO-KH006-2026-1018",
+    "po_source": "Portal",
+    "current_status_code": "SAP_ACCEPTED",
+    "sap_sales_order_id": "4500000106",
+    "received_at": {
+      "$date": "2026-10-09T13:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-09T13:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-09T15:57:00.000Z"
+    },
+    "hub_order_id": "HUB-20261009-0006",
+    "customer_po_number": "PO-KH006-2026-1018",
+    "intake_channel": "PORTAL_FORM",
+    "current_version": "V1",
+    "currency": "VND",
+    "total_amount": 3960000
+  },
+  {
+    "po_id": "HUB-20261010-0007",
+    "customer_id": "CUS007",
+    "customer_reference_po": "PO-KH007-2026-1021",
+    "po_source": "File Import",
+    "current_status_code": "COMPLETED",
+    "sap_sales_order_id": "4500000107",
+    "received_at": {
+      "$date": "2026-10-10T10:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-10T10:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-12T12:27:00.000Z"
+    },
+    "hub_order_id": "HUB-20261010-0007",
+    "customer_po_number": "PO-KH007-2026-1021",
+    "intake_channel": "EXCEL_UPLOAD",
+    "current_version": "V1",
+    "currency": "VND",
+    "total_amount": 4554000
+  },
+  {
+    "po_id": "HUB-20261011-0008",
+    "customer_id": "CUS008",
+    "customer_reference_po": "PO-KH008-2026-1024",
+    "po_source": "File Import",
+    "current_status_code": "COMPLETED",
+    "sap_sales_order_id": "4500000108",
+    "received_at": {
+      "$date": "2026-10-11T07:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-11T07:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-13T09:27:00.000Z"
+    },
+    "hub_order_id": "HUB-20261011-0008",
+    "customer_po_number": "PO-KH008-2026-1024",
+    "intake_channel": "EXCEL_UPLOAD",
+    "current_version": "V1",
+    "currency": "VND",
+    "total_amount": 528000
+  },
+  {
+    "po_id": "HUB-20261012-0009",
+    "customer_id": "CUS009",
+    "customer_reference_po": "PO-KH009-2026-1027",
+    "po_source": "Portal",
+    "current_status_code": "COMPLETED",
+    "sap_sales_order_id": "4500000109",
+    "received_at": {
+      "$date": "2026-10-12T04:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-12T04:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T06:27:00.000Z"
+    },
+    "hub_order_id": "HUB-20261012-0009",
+    "customer_po_number": "PO-KH009-2026-1027",
+    "intake_channel": "PORTAL_FORM",
+    "current_version": "V1",
+    "currency": "VND",
+    "total_amount": 1184000
+  },
+  {
+    "po_id": "HUB-20261012-0010",
+    "customer_id": "CUS010",
+    "customer_reference_po": "PO-KH010-2026-1030",
+    "po_source": "File Import",
+    "current_status_code": "SENT_SAP",
+    "sap_sales_order_id": null,
+    "received_at": {
+      "$date": "2026-10-12T20:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-12T20:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-12T22:25:00.000Z"
+    },
+    "hub_order_id": "HUB-20261012-0010",
+    "customer_po_number": "PO-KH010-2026-1030",
+    "intake_channel": "EXCEL_UPLOAD",
+    "current_version": "V1",
+    "currency": "VND",
+    "total_amount": 43200000
+  },
+  {
+    "po_id": "HUB-20261013-0011",
+    "customer_id": "CUS011",
+    "customer_reference_po": "PO-KH011-2026-1033",
+    "po_source": "File Import",
+    "current_status_code": "PENDING_SAP",
+    "sap_sales_order_id": null,
+    "received_at": {
+      "$date": "2026-10-13T17:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-13T17:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-13T19:20:00.000Z"
+    },
+    "hub_order_id": "HUB-20261013-0011",
+    "customer_po_number": "PO-KH011-2026-1033",
+    "intake_channel": "EXCEL_UPLOAD",
+    "current_version": "V1",
+    "currency": "VND",
+    "total_amount": 6804000
+  },
+  {
+    "po_id": "HUB-20261014-0012",
+    "customer_id": "CUS012",
+    "customer_reference_po": "PO-KH012-2026-1036",
+    "po_source": "Portal",
+    "current_status_code": "SAP_ACCEPTED",
+    "sap_sales_order_id": "4500000112",
+    "received_at": {
+      "$date": "2026-10-14T14:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-14T14:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-14T16:57:00.000Z"
+    },
+    "hub_order_id": "HUB-20261014-0012",
+    "customer_po_number": "PO-KH012-2026-1036",
+    "intake_channel": "PORTAL_FORM",
+    "current_version": "V1",
+    "currency": "VND",
+    "total_amount": 211584000
+  },
+  {
+    "po_id": "HUB-20261015-0013",
+    "customer_id": "CUS013",
+    "customer_reference_po": "PO-KH013-2026-1039",
+    "po_source": "File Import",
+    "current_status_code": "COMPLETED",
+    "sap_sales_order_id": "4500000113",
+    "received_at": {
+      "$date": "2026-10-15T11:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-15T11:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-16T13:27:00.000Z"
+    },
+    "hub_order_id": "HUB-20261015-0013",
+    "customer_po_number": "PO-KH013-2026-1039",
+    "intake_channel": "EXCEL_UPLOAD",
+    "current_version": "V1",
+    "currency": "VND",
+    "total_amount": 69420000
+  },
+  {
+    "po_id": "HUB-20261016-0014",
+    "customer_id": "CUS014",
+    "customer_reference_po": "PO-KH014-2026-1042",
+    "po_source": "File Import",
+    "current_status_code": "CLOSED",
+    "sap_sales_order_id": "4500000114",
+    "received_at": {
+      "$date": "2026-10-16T08:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-16T08:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-19T10:27:00.000Z"
+    },
+    "hub_order_id": "HUB-20261016-0014",
+    "customer_po_number": "PO-KH014-2026-1042",
+    "intake_channel": "EXCEL_UPLOAD",
+    "current_version": "V1",
+    "currency": "VND",
+    "total_amount": 468000
+  },
+  {
+    "po_id": "HUB-20261017-0015",
+    "customer_id": "CUS015",
+    "customer_reference_po": "PO-KH015-2026-1045",
+    "po_source": "Portal",
+    "current_status_code": "EXCEPTION_OPEN",
+    "sap_sales_order_id": null,
+    "received_at": {
+      "$date": "2026-10-17T00:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-17T00:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-17T00:05:00.000Z"
+    },
+    "hub_order_id": "HUB-20261017-0015",
+    "customer_po_number": "PO-KH015-2026-1045",
+    "intake_channel": "PORTAL_FORM",
+    "current_version": "V1",
+    "currency": "VND",
+    "total_amount": 5760000
+  },
+  {
+    "po_id": "HUB-20261017-0016",
+    "customer_id": "CUS016",
+    "customer_reference_po": "PO-KH016-2026-1048",
+    "po_source": "File Import",
+    "current_status_code": "EXCEPTION_OPEN",
+    "sap_sales_order_id": null,
+    "received_at": {
+      "$date": "2026-10-17T21:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-17T21:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-17T21:05:00.000Z"
+    },
+    "hub_order_id": "HUB-20261017-0016",
+    "customer_po_number": "PO-KH016-2026-1048",
+    "intake_channel": "EXCEL_UPLOAD",
+    "current_version": "V1",
+    "currency": "VND",
+    "total_amount": 9086000
+  },
+  {
+    "po_id": "HUB-20261018-0017",
+    "customer_id": "CUS017",
+    "customer_reference_po": "PO-KH017-2026-1051",
+    "po_source": "File Import",
+    "current_status_code": "EXCEPTION_OPEN",
+    "sap_sales_order_id": null,
+    "received_at": {
+      "$date": "2026-10-18T18:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-18T18:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-18T18:05:00.000Z"
+    },
+    "hub_order_id": "HUB-20261018-0017",
+    "customer_po_number": "PO-KH017-2026-1051",
+    "intake_channel": "EXCEL_UPLOAD",
+    "current_version": "V1",
+    "currency": "VND",
+    "total_amount": 82080000
+  },
+  {
+    "po_id": "HUB-20261019-0018",
+    "customer_id": "CUS018",
+    "customer_reference_po": "PO-KH018-2026-1054",
+    "po_source": "Portal",
+    "current_status_code": "NEW",
+    "sap_sales_order_id": null,
+    "received_at": {
+      "$date": "2026-10-19T15:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-19T15:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-19T15:00:00.000Z"
+    },
+    "hub_order_id": "HUB-20261019-0018",
+    "customer_po_number": "PO-KH018-2026-1054",
+    "intake_channel": "PORTAL_FORM",
+    "current_version": "V1",
+    "currency": "VND",
+    "total_amount": null
+  },
+  {
+    "po_id": "HUB-20261020-0019",
+    "customer_id": "CUS019",
+    "customer_reference_po": "PO-KH019-2026-1057",
+    "po_source": "File Import",
+    "current_status_code": "RECEIVED",
+    "sap_sales_order_id": null,
+    "received_at": {
+      "$date": "2026-10-20T12:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-20T12:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-20T12:00:00.000Z"
+    },
+    "hub_order_id": "HUB-20261020-0019",
+    "customer_po_number": "PO-KH019-2026-1057",
+    "intake_channel": "EXCEL_UPLOAD",
+    "current_version": "V1",
+    "currency": "VND",
+    "total_amount": null
+  },
+  {
+    "po_id": "HUB-20261021-0020",
+    "customer_id": "CUS020",
+    "customer_reference_po": "PO-KH020-2026-1060",
+    "po_source": "File Import",
+    "current_status_code": "DRAFT",
+    "sap_sales_order_id": null,
+    "received_at": {
+      "$date": "2026-10-21T04:00:00.000Z"
+    },
+    "created_at": {
+      "$date": "2026-10-21T04:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-10-21T04:00:00.000Z"
+    },
+    "hub_order_id": "HUB-20261021-0020",
+    "customer_po_number": "PO-KH020-2026-1060",
+    "intake_channel": "EXCEL_UPLOAD",
+    "current_version": "V1",
+    "currency": "VND",
+    "total_amount": null
+  }
+]

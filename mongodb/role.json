@@ -1,0 +1,162 @@
+[
+  {
+    "role_id": "ROL001",
+    "role_name": "System_Admin",
+    "description": "Quản trị toàn bộ hệ thống, tài khoản và phân quyền",
+    "created_at": {
+      "$date": "2026-08-01T09:00:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL002",
+    "role_name": "Sales_Admin",
+    "description": "Quản trị đơn hàng bán, giám sát luồng xử lý PO",
+    "created_at": {
+      "$date": "2026-08-01T09:01:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL003",
+    "role_name": "Customer_Service",
+    "description": "Nhân viên chăm sóc khách hàng, hỗ trợ tiếp nhận PO",
+    "created_at": {
+      "$date": "2026-08-01T09:02:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL004",
+    "role_name": "Order_Specialist",
+    "description": "Chuyên viên xử lý đơn hàng và ngoại lệ",
+    "created_at": {
+      "$date": "2026-08-01T09:03:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL005",
+    "role_name": "Master_Data_Manager",
+    "description": "Quản lý dữ liệu tham chiếu: SKU, UOM, quy đổi",
+    "created_at": {
+      "$date": "2026-08-01T09:04:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL006",
+    "role_name": "Integration_Engineer",
+    "description": "Kỹ sư tích hợp, theo dõi giao dịch SAP",
+    "created_at": {
+      "$date": "2026-08-01T09:05:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL007",
+    "role_name": "Finance_Reviewer",
+    "description": "Kiểm tra giá trị đơn hàng và công nợ",
+    "created_at": {
+      "$date": "2026-08-01T09:06:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL008",
+    "role_name": "Warehouse_Coordinator",
+    "description": "Điều phối kho, xác nhận khả năng đáp ứng",
+    "created_at": {
+      "$date": "2026-08-01T09:07:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL009",
+    "role_name": "Report_Viewer",
+    "description": "Xem và xuất báo cáo",
+    "created_at": {
+      "$date": "2026-08-01T09:08:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL010",
+    "role_name": "Customer_Admin",
+    "description": "Quản trị viên phía khách hàng B2B",
+    "created_at": {
+      "$date": "2026-08-01T09:09:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL011",
+    "role_name": "Customer_Buyer",
+    "description": "Nhân viên mua hàng phía khách hàng, tạo và gửi PO",
+    "created_at": {
+      "$date": "2026-08-01T09:10:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL012",
+    "role_name": "Customer_Viewer",
+    "description": "Khách hàng chỉ xem trạng thái PO",
+    "created_at": {
+      "$date": "2026-08-01T09:11:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL013",
+    "role_name": "IT_Support",
+    "description": "Hỗ trợ kỹ thuật hệ thống",
+    "created_at": {
+      "$date": "2026-08-01T09:12:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL014",
+    "role_name": "Auditor",
+    "description": "Kiểm toán, truy vết lịch sử xử lý",
+    "created_at": {
+      "$date": "2026-08-01T09:13:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL015",
+    "role_name": "Regional_Sales_Manager",
+    "description": "Quản lý bán hàng khu vực",
+    "created_at": {
+      "$date": "2026-08-01T09:14:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL016",
+    "role_name": "Supervisor",
+    "description": "Giám sát nhân viên xử lý đơn và duyệt ngoại lệ",
+    "created_at": {
+      "$date": "2026-08-01T09:15:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL017",
+    "role_name": "Logistics_Planner",
+    "description": "Lập kế hoạch giao hàng",
+    "created_at": {
+      "$date": "2026-08-01T09:16:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL018",
+    "role_name": "Key_Account_Manager",
+    "description": "Quản lý khách hàng chiến lược",
+    "created_at": {
+      "$date": "2026-08-01T09:17:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL019",
+    "role_name": "Compliance_Officer",
+    "description": "Kiểm soát tuân thủ quy trình",
+    "created_at": {
+      "$date": "2026-08-01T09:18:00.000Z"
+    }
+  },
+  {
+    "role_id": "ROL020",
+    "role_name": "System_Agent",
+    "description": "Tác nhân hệ thống thực hiện thao tác tự động",
+    "created_at": {
+      "$date": "2026-08-01T09:19:00.000Z"
+    }
+  }
+]

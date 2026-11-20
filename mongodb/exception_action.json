@@ -1,0 +1,222 @@
+[
+  {
+    "action_id": "ACT001",
+    "exception_id": "EXC001",
+    "action_type": "Request_Clarification",
+    "action_description": "Xử lý ngoại lệ Missing_SKU cho PO HUB-20261017-0015",
+    "resolution_result": "Đang chờ khách hàng phản hồi",
+    "performed_by": "USR004",
+    "performed_at": {
+      "$date": "2026-10-17T00:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT002",
+    "exception_id": "EXC002",
+    "action_type": "Request_Clarification",
+    "action_description": "Xử lý ngoại lệ Invalid_UOM cho PO HUB-20261017-0016",
+    "resolution_result": "Đang chờ khách hàng phản hồi",
+    "performed_by": "USR004",
+    "performed_at": {
+      "$date": "2026-10-17T21:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT003",
+    "exception_id": "EXC003",
+    "action_type": "Request_Clarification",
+    "action_description": "Xử lý ngoại lệ Quantity_Mismatch cho PO HUB-20261018-0017",
+    "resolution_result": "Đang chờ khách hàng phản hồi",
+    "performed_by": "USR003",
+    "performed_at": {
+      "$date": "2026-10-18T18:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT004",
+    "exception_id": "EXC004",
+    "action_type": "Correct_Data",
+    "action_description": "Xử lý ngoại lệ Price_Mismatch cho PO HUB-20261005-0001",
+    "resolution_result": "Đã xác minh và cập nhật dữ liệu, chuẩn hóa lại thành công",
+    "performed_by": "USR004",
+    "performed_at": {
+      "$date": "2026-10-05T09:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT005",
+    "exception_id": "EXC005",
+    "action_type": "Verify_With_Customer",
+    "action_description": "Xử lý ngoại lệ Quantity_Mismatch cho PO HUB-20261006-0002",
+    "resolution_result": "Đã xác minh và cập nhật dữ liệu, chuẩn hóa lại thành công",
+    "performed_by": "USR004",
+    "performed_at": {
+      "$date": "2026-10-06T06:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT006",
+    "exception_id": "EXC006",
+    "action_type": "Update_Mapping",
+    "action_description": "Xử lý ngoại lệ Customer_Code_Unmapped cho PO HUB-20261007-0003",
+    "resolution_result": "Đã xác minh và cập nhật dữ liệu, chuẩn hóa lại thành công",
+    "performed_by": "USR003",
+    "performed_at": {
+      "$date": "2026-10-07T03:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT007",
+    "exception_id": "EXC007",
+    "action_type": "Correct_Data",
+    "action_description": "Xử lý ngoại lệ Delivery_Date_Missing cho PO HUB-20261008-0004",
+    "resolution_result": "Đã xác minh và cập nhật dữ liệu, chuẩn hóa lại thành công",
+    "performed_by": "USR004",
+    "performed_at": {
+      "$date": "2026-10-08T00:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT008",
+    "exception_id": "EXC008",
+    "action_type": "Verify_With_Customer",
+    "action_description": "Xử lý ngoại lệ Invalid_UOM cho PO HUB-20261008-0005",
+    "resolution_result": "Đã xác minh và cập nhật dữ liệu, chuẩn hóa lại thành công",
+    "performed_by": "USR004",
+    "performed_at": {
+      "$date": "2026-10-08T16:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT009",
+    "exception_id": "EXC009",
+    "action_type": "Update_Mapping",
+    "action_description": "Xử lý ngoại lệ Missing_SKU cho PO HUB-20261009-0006",
+    "resolution_result": "Đã xác minh và cập nhật dữ liệu, chuẩn hóa lại thành công",
+    "performed_by": "USR003",
+    "performed_at": {
+      "$date": "2026-10-09T13:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT010",
+    "exception_id": "EXC010",
+    "action_type": "Correct_Data",
+    "action_description": "Xử lý ngoại lệ Price_Mismatch cho PO HUB-20261010-0007",
+    "resolution_result": "Đã xác minh và cập nhật dữ liệu, chuẩn hóa lại thành công",
+    "performed_by": "USR004",
+    "performed_at": {
+      "$date": "2026-10-10T10:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT011",
+    "exception_id": "EXC011",
+    "action_type": "Verify_With_Customer",
+    "action_description": "Xử lý ngoại lệ Quantity_Mismatch cho PO HUB-20261011-0008",
+    "resolution_result": "Đã xác minh và cập nhật dữ liệu, chuẩn hóa lại thành công",
+    "performed_by": "USR004",
+    "performed_at": {
+      "$date": "2026-10-11T07:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT012",
+    "exception_id": "EXC012",
+    "action_type": "Update_Mapping",
+    "action_description": "Xử lý ngoại lệ Customer_Code_Unmapped cho PO HUB-20261012-0009",
+    "resolution_result": "Đã xác minh và cập nhật dữ liệu, chuẩn hóa lại thành công",
+    "performed_by": "USR003",
+    "performed_at": {
+      "$date": "2026-10-12T04:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT013",
+    "exception_id": "EXC013",
+    "action_type": "Correct_Data",
+    "action_description": "Xử lý ngoại lệ Delivery_Date_Missing cho PO HUB-20261012-0010",
+    "resolution_result": "Đã xác minh và cập nhật dữ liệu, chuẩn hóa lại thành công",
+    "performed_by": "USR004",
+    "performed_at": {
+      "$date": "2026-10-12T20:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT014",
+    "exception_id": "EXC014",
+    "action_type": "Verify_With_Customer",
+    "action_description": "Xử lý ngoại lệ Invalid_UOM cho PO HUB-20261013-0011",
+    "resolution_result": "Đã xác minh và cập nhật dữ liệu, chuẩn hóa lại thành công",
+    "performed_by": "USR004",
+    "performed_at": {
+      "$date": "2026-10-13T17:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT015",
+    "exception_id": "EXC015",
+    "action_type": "Update_Mapping",
+    "action_description": "Xử lý ngoại lệ Missing_SKU cho PO HUB-20261014-0012",
+    "resolution_result": "Đã xác minh và cập nhật dữ liệu, chuẩn hóa lại thành công",
+    "performed_by": "USR003",
+    "performed_at": {
+      "$date": "2026-10-14T14:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT016",
+    "exception_id": "EXC016",
+    "action_type": "Correct_Data",
+    "action_description": "Xử lý ngoại lệ Price_Mismatch cho PO HUB-20261015-0013",
+    "resolution_result": "Đã xác minh và cập nhật dữ liệu, chuẩn hóa lại thành công",
+    "performed_by": "USR004",
+    "performed_at": {
+      "$date": "2026-10-15T11:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT017",
+    "exception_id": "EXC017",
+    "action_type": "Verify_With_Customer",
+    "action_description": "Xử lý ngoại lệ Quantity_Mismatch cho PO HUB-20261016-0014",
+    "resolution_result": "Đã xác minh và cập nhật dữ liệu, chuẩn hóa lại thành công",
+    "performed_by": "USR004",
+    "performed_at": {
+      "$date": "2026-10-16T08:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT018",
+    "exception_id": "EXC018",
+    "action_type": "Update_Mapping",
+    "action_description": "Xử lý ngoại lệ Customer_Code_Unmapped cho PO HUB-20261005-0001",
+    "resolution_result": "Đã xác minh và cập nhật dữ liệu, chuẩn hóa lại thành công",
+    "performed_by": "USR003",
+    "performed_at": {
+      "$date": "2026-10-08T09:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT019",
+    "exception_id": "EXC019",
+    "action_type": "Correct_Data",
+    "action_description": "Xử lý ngoại lệ Delivery_Date_Missing cho PO HUB-20261006-0002",
+    "resolution_result": "Đã xác minh và cập nhật dữ liệu, chuẩn hóa lại thành công",
+    "performed_by": "USR004",
+    "performed_at": {
+      "$date": "2026-10-09T06:35:00.000Z"
+    }
+  },
+  {
+    "action_id": "ACT020",
+    "exception_id": "EXC020",
+    "action_type": "Verify_With_Customer",
+    "action_description": "Xử lý ngoại lệ Invalid_UOM cho PO HUB-20261007-0003",
+    "resolution_result": "Đã xác minh và cập nhật dữ liệu, chuẩn hóa lại thành công",
+    "performed_by": "USR004",
+    "performed_at": {
+      "$date": "2026-10-10T03:35:00.000Z"
+    }
+  }
+]

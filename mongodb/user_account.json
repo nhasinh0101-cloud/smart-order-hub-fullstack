@@ -1,0 +1,294 @@
+[
+  {
+    "user_id": "USR001",
+    "role_id": "ROL001",
+    "username": "an.nguyen",
+    "email": "an.nguyen@smartorderhub.vn",
+    "password": "$2b$12$PtYgjmUhBel31iEl2hpChYgCfrL1spNxnyVmihA/2O76UMFxFkM/R",
+    "full_name": "Nguyễn Văn An",
+    "phone": "0970241505",
+    "account_status": "Active",
+    "created_at": {
+      "$date": "2026-08-05T12:00:00.000Z"
+    },
+    "updated_at": null
+  },
+  {
+    "user_id": "USR002",
+    "role_id": "ROL002",
+    "username": "bich.tran",
+    "email": "bich.tran@smartorderhub.vn",
+    "password": "$2b$12$Kjp1vRt.1fjORS/6ilI8ihN5KXSc7Tvo/hBKqFYY/kv5ZJr3J1TWD",
+    "full_name": "Trần Thị Bích",
+    "phone": "0930256261",
+    "account_status": "Active",
+    "created_at": {
+      "$date": "2026-08-05T15:00:00.000Z"
+    },
+    "updated_at": null
+  },
+  {
+    "user_id": "USR003",
+    "role_id": "ROL003",
+    "username": "cuong.le",
+    "email": "cuong.le@smartorderhub.vn",
+    "password": "$2b$12$kwtDDb.xHKas1VOqg6YYZYn9ZhyiA4uoRgnatmUdjAWtGSU8po.79",
+    "full_name": "Lê Hoàng Cường",
+    "phone": "0974939188",
+    "account_status": "Active",
+    "created_at": {
+      "$date": "2026-08-05T18:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-09-10T13:00:00.000Z"
+    }
+  },
+  {
+    "user_id": "USR004",
+    "role_id": "ROL004",
+    "username": "duc.pham",
+    "email": "duc.pham@smartorderhub.vn",
+    "password": "$2b$12$NksnRH9ucAUsdMlHUvTCQCyEZDz/TddJ8HyS5SUkCnD8zRA9a9Skp",
+    "full_name": "Phạm Minh Đức",
+    "phone": "0962148384",
+    "account_status": "Active",
+    "created_at": {
+      "$date": "2026-08-05T21:00:00.000Z"
+    },
+    "updated_at": null
+  },
+  {
+    "user_id": "USR005",
+    "role_id": "ROL005",
+    "username": "giang.vo",
+    "email": "giang.vo@smartorderhub.vn",
+    "password": "$2b$12$z9w3QlY7Zkuvqdt7s8Stqcbnr3yBdGBLEPH1qhT61qtc4xatws8ph",
+    "full_name": "Võ Thị Giang",
+    "phone": "0953752583",
+    "account_status": "Active",
+    "created_at": {
+      "$date": "2026-08-06T00:00:00.000Z"
+    },
+    "updated_at": null
+  },
+  {
+    "user_id": "USR006",
+    "role_id": "ROL006",
+    "username": "huy.dang",
+    "email": "huy.dang@smartorderhub.vn",
+    "password": "$2b$12$9nhFyJfm5di4PzJ59FHz5r1pY4OjE2jBMptUsGr7CmY.uCu3ZR1zT",
+    "full_name": "Đặng Quốc Huy",
+    "phone": "0952751778",
+    "account_status": "Active",
+    "created_at": {
+      "$date": "2026-08-06T03:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-09-10T16:00:00.000Z"
+    }
+  },
+  {
+    "user_id": "USR007",
+    "role_id": "ROL007",
+    "username": "lan.bui",
+    "email": "lan.bui@smartorderhub.vn",
+    "password": "$2b$12$lUcR64cXQLioDnkHIfxIq2HZt/PlJhx2jIclHkCiHp6bR1IqfEouH",
+    "full_name": "Bùi Thị Lan",
+    "phone": "0916761851",
+    "account_status": "Active",
+    "created_at": {
+      "$date": "2026-08-06T06:00:00.000Z"
+    },
+    "updated_at": null
+  },
+  {
+    "user_id": "USR008",
+    "role_id": "ROL009",
+    "username": "khoa.hoang",
+    "email": "khoa.hoang@smartorderhub.vn",
+    "password": "$2b$12$xzNNAL5wIScGebcy8F5n3/YNBDRzrZSgqbjG3uhkWKFLf6xuI5aHU",
+    "full_name": "Hoàng Văn Khoa",
+    "phone": "0954147722",
+    "account_status": "Active",
+    "created_at": {
+      "$date": "2026-08-06T09:00:00.000Z"
+    },
+    "updated_at": null
+  },
+  {
+    "user_id": "USR009",
+    "role_id": "ROL016",
+    "username": "mai.ngo",
+    "email": "mai.ngo@smartorderhub.vn",
+    "password": "$2b$12$PFeNBTxaQWk8JzFalHlsZfYcMMDktXP/tKsf2rcDkdfrUnW5gcF.H",
+    "full_name": "Ngô Thanh Mai",
+    "phone": "0910444841",
+    "account_status": "Active",
+    "created_at": {
+      "$date": "2026-08-06T12:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-09-10T19:00:00.000Z"
+    }
+  },
+  {
+    "user_id": "USR010",
+    "role_id": "ROL010",
+    "username": "hanh.do",
+    "email": "hanh.do@customer-mail.vn",
+    "password": "$2b$12$6ili8GjHEAD6/Wj9KfzjsQGMrb9h.ImB.LK777pzNk8cL6j5IXAAj",
+    "full_name": "Đỗ Thị Hạnh",
+    "phone": "0988043900",
+    "account_status": "Active",
+    "created_at": {
+      "$date": "2026-08-06T15:00:00.000Z"
+    },
+    "updated_at": null
+  },
+  {
+    "user_id": "USR011",
+    "role_id": "ROL011",
+    "username": "loc.truong",
+    "email": "loc.truong@customer-mail.vn",
+    "password": "$2b$12$lsHUqJoUD/.Ydua.5ZMs1SWOpQaPRYpzbLGViYXjU2JgJngKtFI3O",
+    "full_name": "Trương Văn Lộc",
+    "phone": "0935481107",
+    "account_status": "Active",
+    "created_at": {
+      "$date": "2026-08-06T18:00:00.000Z"
+    },
+    "updated_at": null
+  },
+  {
+    "user_id": "USR012",
+    "role_id": "ROL010",
+    "username": "anh.ly",
+    "email": "anh.ly@customer-mail.vn",
+    "password": "$2b$12$V2dZAkg05rK.gqv81RKMGHZEM9YpvujA/C5Q52ryFlwRlOEVHzc0X",
+    "full_name": "Lý Ngọc Anh",
+    "phone": "0965550512",
+    "account_status": "Active",
+    "created_at": {
+      "$date": "2026-08-06T21:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-09-10T22:00:00.000Z"
+    }
+  },
+  {
+    "user_id": "USR013",
+    "role_id": "ROL011",
+    "username": "bao.phan",
+    "email": "bao.phan@customer-mail.vn",
+    "password": "$2b$12$AWIRh/JUqBlIFXZ53Ncqe28.ajY75FnCttn6kfaqDeMqG3omjMyXH",
+    "full_name": "Phan Quốc Bảo",
+    "phone": "0940008806",
+    "account_status": "Active",
+    "created_at": {
+      "$date": "2026-08-07T00:00:00.000Z"
+    },
+    "updated_at": null
+  },
+  {
+    "user_id": "USR014",
+    "role_id": "ROL010",
+    "username": "thu.huynh",
+    "email": "thu.huynh@customer-mail.vn",
+    "password": "$2b$12$abM6JOF8EFd0Nhcy/1kGD2VD/eR1UYzaLiA/zNyD7CHLn/xC.1hsY",
+    "full_name": "Huỳnh Thị Thu",
+    "phone": "0917295858",
+    "account_status": "Active",
+    "created_at": {
+      "$date": "2026-08-07T03:00:00.000Z"
+    },
+    "updated_at": null
+  },
+  {
+    "user_id": "USR015",
+    "role_id": "ROL011",
+    "username": "nam.vu",
+    "email": "nam.vu@customer-mail.vn",
+    "password": "$2b$12$Bds1ghxY5OokvQyx7eNWVQ4vnakJkS1pAWTN3lg8zV5yPU8d0FZfW",
+    "full_name": "Vũ Đình Nam",
+    "phone": "0914678076",
+    "account_status": "Pending",
+    "created_at": {
+      "$date": "2026-08-07T06:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-09-11T01:00:00.000Z"
+    }
+  },
+  {
+    "user_id": "USR016",
+    "role_id": "ROL010",
+    "username": "oanh.dinh",
+    "email": "oanh.dinh@customer-mail.vn",
+    "password": "$2b$12$7ihGyiRUIQfHOJMaidDn87XG3/q/xbMtEPO6UkzYuF0ie9Pu2njHk",
+    "full_name": "Đinh Thị Oanh",
+    "phone": "0937963061",
+    "account_status": "Active",
+    "created_at": {
+      "$date": "2026-08-07T09:00:00.000Z"
+    },
+    "updated_at": null
+  },
+  {
+    "user_id": "USR017",
+    "role_id": "ROL011",
+    "username": "phuc.mai",
+    "email": "phuc.mai@customer-mail.vn",
+    "password": "$2b$12$m1/5wDr16EpLLJIVGHz4FxFEtKyPiYGFDm7ena8D5VfLDpgyyjVw5",
+    "full_name": "Mai Văn Phúc",
+    "phone": "0990938952",
+    "account_status": "Active",
+    "created_at": {
+      "$date": "2026-08-07T12:00:00.000Z"
+    },
+    "updated_at": null
+  },
+  {
+    "user_id": "USR018",
+    "role_id": "ROL010",
+    "username": "quyen.cao",
+    "email": "quyen.cao@customer-mail.vn",
+    "password": "$2b$12$HanSBeVRsfAGeAbP0VxNjAe/9i0mYtluYI0KN1gNT11cUzYZAa3u2",
+    "full_name": "Cao Thị Quyên",
+    "phone": "0925238985",
+    "account_status": "Active",
+    "created_at": {
+      "$date": "2026-08-07T15:00:00.000Z"
+    },
+    "updated_at": {
+      "$date": "2026-09-11T04:00:00.000Z"
+    }
+  },
+  {
+    "user_id": "USR019",
+    "role_id": "ROL011",
+    "username": "son.to",
+    "email": "son.to@customer-mail.vn",
+    "password": "$2b$12$lZU6uqbgsYlVvsSKuvinX.zMqf9OgXluCZz8xBfZuXTptFyfePpX6",
+    "full_name": "Tô Minh Sơn",
+    "phone": "0983826707",
+    "account_status": "Locked",
+    "created_at": {
+      "$date": "2026-08-07T18:00:00.000Z"
+    },
+    "updated_at": null
+  },
+  {
+    "user_id": "USR020",
+    "role_id": "ROL020",
+    "username": "system.agent",
+    "email": "system.agent@smartorderhub.vn",
+    "password": "$2b$12$N1NF2XV54wca.7E56w8ZniqT3Ul4ffqkOkgWrdioyq.KvCiSGuPJ6",
+    "full_name": "System Agent",
+    "phone": "0929269947",
+    "account_status": "Active",
+    "created_at": {
+      "$date": "2026-08-07T21:00:00.000Z"
+    },
+    "updated_at": null
+  }
+]

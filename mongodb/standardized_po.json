@@ -1,0 +1,282 @@
+[
+  {
+    "standardized_po_id": "SPO001",
+    "version_id": "PV001",
+    "standardization_attempt": 1,
+    "standardization_status": "Success",
+    "standardized_at": {
+      "$date": "2026-10-05T11:15:00.000Z"
+    },
+    "total_items": 2,
+    "total_amount": 91200000,
+    "created_at": {
+      "$date": "2026-10-05T11:15:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO002",
+    "version_id": "PV002",
+    "standardization_attempt": 1,
+    "standardization_status": "Success",
+    "standardized_at": {
+      "$date": "2026-10-06T08:15:00.000Z"
+    },
+    "total_items": 2,
+    "total_amount": 27840000,
+    "created_at": {
+      "$date": "2026-10-06T08:15:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO003",
+    "version_id": "PV003",
+    "standardization_attempt": 1,
+    "standardization_status": "Success",
+    "standardized_at": {
+      "$date": "2026-10-07T05:15:00.000Z"
+    },
+    "total_items": 2,
+    "total_amount": 6480000,
+    "created_at": {
+      "$date": "2026-10-07T05:15:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO004",
+    "version_id": "PV004",
+    "standardization_attempt": 1,
+    "standardization_status": "Success",
+    "standardized_at": {
+      "$date": "2026-10-08T02:15:00.000Z"
+    },
+    "total_items": 1,
+    "total_amount": 3534000,
+    "created_at": {
+      "$date": "2026-10-08T02:15:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO005",
+    "version_id": "PV005",
+    "standardization_attempt": 1,
+    "standardization_status": "Success",
+    "standardized_at": {
+      "$date": "2026-10-08T18:15:00.000Z"
+    },
+    "total_items": 1,
+    "total_amount": 175500000,
+    "created_at": {
+      "$date": "2026-10-08T18:15:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO006",
+    "version_id": "PV006",
+    "standardization_attempt": 1,
+    "standardization_status": "Success",
+    "standardized_at": {
+      "$date": "2026-10-09T15:15:00.000Z"
+    },
+    "total_items": 1,
+    "total_amount": 3960000,
+    "created_at": {
+      "$date": "2026-10-09T15:15:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO007",
+    "version_id": "PV007",
+    "standardization_attempt": 1,
+    "standardization_status": "Success",
+    "standardized_at": {
+      "$date": "2026-10-10T12:15:00.000Z"
+    },
+    "total_items": 1,
+    "total_amount": 4554000,
+    "created_at": {
+      "$date": "2026-10-10T12:15:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO008",
+    "version_id": "PV008",
+    "standardization_attempt": 1,
+    "standardization_status": "Success",
+    "standardized_at": {
+      "$date": "2026-10-11T09:15:00.000Z"
+    },
+    "total_items": 1,
+    "total_amount": 528000,
+    "created_at": {
+      "$date": "2026-10-11T09:15:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO009",
+    "version_id": "PV009",
+    "standardization_attempt": 1,
+    "standardization_status": "Success",
+    "standardized_at": {
+      "$date": "2026-10-12T06:15:00.000Z"
+    },
+    "total_items": 1,
+    "total_amount": 1184000,
+    "created_at": {
+      "$date": "2026-10-12T06:15:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO010",
+    "version_id": "PV010",
+    "standardization_attempt": 1,
+    "standardization_status": "Success",
+    "standardized_at": {
+      "$date": "2026-10-12T22:15:00.000Z"
+    },
+    "total_items": 1,
+    "total_amount": 43200000,
+    "created_at": {
+      "$date": "2026-10-12T22:15:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO011",
+    "version_id": "PV011",
+    "standardization_attempt": 1,
+    "standardization_status": "Success",
+    "standardized_at": {
+      "$date": "2026-10-13T19:15:00.000Z"
+    },
+    "total_items": 1,
+    "total_amount": 6804000,
+    "created_at": {
+      "$date": "2026-10-13T19:15:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO012",
+    "version_id": "PV012",
+    "standardization_attempt": 1,
+    "standardization_status": "Success",
+    "standardized_at": {
+      "$date": "2026-10-14T16:15:00.000Z"
+    },
+    "total_items": 1,
+    "total_amount": 211584000,
+    "created_at": {
+      "$date": "2026-10-14T16:15:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO013",
+    "version_id": "PV013",
+    "standardization_attempt": 1,
+    "standardization_status": "Success",
+    "standardized_at": {
+      "$date": "2026-10-15T13:15:00.000Z"
+    },
+    "total_items": 1,
+    "total_amount": 69420000,
+    "created_at": {
+      "$date": "2026-10-15T13:15:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO014",
+    "version_id": "PV014",
+    "standardization_attempt": 1,
+    "standardization_status": "Success",
+    "standardized_at": {
+      "$date": "2026-10-16T10:15:00.000Z"
+    },
+    "total_items": 1,
+    "total_amount": 468000,
+    "created_at": {
+      "$date": "2026-10-16T10:15:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO015",
+    "version_id": "PV015",
+    "standardization_attempt": 1,
+    "standardization_status": "Success",
+    "standardized_at": {
+      "$date": "2026-10-08T11:15:00.000Z"
+    },
+    "total_items": 1,
+    "total_amount": 109440000,
+    "created_at": {
+      "$date": "2026-10-08T11:15:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO016",
+    "version_id": "PV016",
+    "standardization_attempt": 1,
+    "standardization_status": "Success",
+    "standardized_at": {
+      "$date": "2026-10-09T08:15:00.000Z"
+    },
+    "total_items": 1,
+    "total_amount": 31320000,
+    "created_at": {
+      "$date": "2026-10-09T08:15:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO017",
+    "version_id": "PV017",
+    "standardization_attempt": 1,
+    "standardization_status": "Success",
+    "standardized_at": {
+      "$date": "2026-10-10T05:15:00.000Z"
+    },
+    "total_items": 1,
+    "total_amount": 7560000,
+    "created_at": {
+      "$date": "2026-10-10T05:15:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO018",
+    "version_id": "PV018",
+    "standardization_attempt": 1,
+    "standardization_status": "Failed",
+    "standardized_at": {
+      "$date": "2026-10-17T00:06:00.000Z"
+    },
+    "total_items": 0,
+    "total_amount": 0,
+    "created_at": {
+      "$date": "2026-10-17T00:06:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO019",
+    "version_id": "PV019",
+    "standardization_attempt": 1,
+    "standardization_status": "Failed",
+    "standardized_at": {
+      "$date": "2026-10-17T21:06:00.000Z"
+    },
+    "total_items": 0,
+    "total_amount": 0,
+    "created_at": {
+      "$date": "2026-10-17T21:06:00.000Z"
+    }
+  },
+  {
+    "standardized_po_id": "SPO020",
+    "version_id": "PV020",
+    "standardization_attempt": 1,
+    "standardization_status": "Failed",
+    "standardized_at": {
+      "$date": "2026-10-18T18:06:00.000Z"
+    },
+    "total_items": 0,
+    "total_amount": 0,
+    "created_at": {
+      "$date": "2026-10-18T18:06:00.000Z"
+    }
+  }
+]

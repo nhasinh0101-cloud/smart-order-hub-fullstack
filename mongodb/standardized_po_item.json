@@ -1,0 +1,282 @@
+[
+  {
+    "standardized_item_id": "SPI001",
+    "standardized_po_id": "SPO001",
+    "source_po_item_id": "PI001",
+    "line_number": 1,
+    "product_id": "PRD001",
+    "quantity": 1440,
+    "uom_id": "UOM001",
+    "unit_price": 38000,
+    "line_amount": 54720000,
+    "created_at": {
+      "$date": "2026-10-05T11:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI002",
+    "standardized_po_id": "SPO001",
+    "source_po_item_id": "PI001",
+    "line_number": 2,
+    "product_id": "PRD001",
+    "quantity": 960,
+    "uom_id": "UOM001",
+    "unit_price": 38000,
+    "line_amount": 36480000,
+    "created_at": {
+      "$date": "2026-10-05T11:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI003",
+    "standardized_po_id": "SPO002",
+    "source_po_item_id": "PI002",
+    "line_number": 1,
+    "product_id": "PRD002",
+    "quantity": 1152,
+    "uom_id": "UOM001",
+    "unit_price": 14500,
+    "line_amount": 16704000,
+    "created_at": {
+      "$date": "2026-10-06T08:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI004",
+    "standardized_po_id": "SPO002",
+    "source_po_item_id": "PI002",
+    "line_number": 2,
+    "product_id": "PRD002",
+    "quantity": 768,
+    "uom_id": "UOM001",
+    "unit_price": 14500,
+    "line_amount": 11136000,
+    "created_at": {
+      "$date": "2026-10-06T08:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI005",
+    "standardized_po_id": "SPO003",
+    "source_po_item_id": "PI003",
+    "line_number": 1,
+    "product_id": "PRD003",
+    "quantity": 864,
+    "uom_id": "UOM001",
+    "unit_price": 4500,
+    "line_amount": 3888000,
+    "created_at": {
+      "$date": "2026-10-07T05:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI006",
+    "standardized_po_id": "SPO003",
+    "source_po_item_id": "PI003",
+    "line_number": 2,
+    "product_id": "PRD003",
+    "quantity": 576,
+    "uom_id": "UOM001",
+    "unit_price": 4500,
+    "line_amount": 2592000,
+    "created_at": {
+      "$date": "2026-10-07T05:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI007",
+    "standardized_po_id": "SPO004",
+    "source_po_item_id": "PI004",
+    "line_number": 1,
+    "product_id": "PRD009",
+    "quantity": 372,
+    "uom_id": "UOM001",
+    "unit_price": 9500,
+    "line_amount": 3534000,
+    "created_at": {
+      "$date": "2026-10-08T02:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI008",
+    "standardized_po_id": "SPO005",
+    "source_po_item_id": "PI005",
+    "line_number": 1,
+    "product_id": "PRD016",
+    "quantity": 2250,
+    "uom_id": "UOM001",
+    "unit_price": 78000,
+    "line_amount": 175500000,
+    "created_at": {
+      "$date": "2026-10-08T18:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI009",
+    "standardized_po_id": "SPO006",
+    "source_po_item_id": "PI006",
+    "line_number": 1,
+    "product_id": "PRD003",
+    "quantity": 880,
+    "uom_id": "UOM001",
+    "unit_price": 4500,
+    "line_amount": 3960000,
+    "created_at": {
+      "$date": "2026-10-09T15:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI010",
+    "standardized_po_id": "SPO007",
+    "source_po_item_id": "PI007",
+    "line_number": 1,
+    "product_id": "PRD010",
+    "quantity": 33,
+    "uom_id": "UOM001",
+    "unit_price": 138000,
+    "line_amount": 4554000,
+    "created_at": {
+      "$date": "2026-10-10T12:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI011",
+    "standardized_po_id": "SPO008",
+    "source_po_item_id": "PI008",
+    "line_number": 1,
+    "product_id": "PRD017",
+    "quantity": 48,
+    "uom_id": "UOM001",
+    "unit_price": 11000,
+    "line_amount": 528000,
+    "created_at": {
+      "$date": "2026-10-11T09:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI012",
+    "standardized_po_id": "SPO009",
+    "source_po_item_id": "PI009",
+    "line_number": 1,
+    "product_id": "PRD004",
+    "quantity": 37,
+    "uom_id": "UOM001",
+    "unit_price": 32000,
+    "line_amount": 1184000,
+    "created_at": {
+      "$date": "2026-10-12T06:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI013",
+    "standardized_po_id": "SPO010",
+    "source_po_item_id": "PI010",
+    "line_number": 1,
+    "product_id": "PRD011",
+    "quantity": 1200,
+    "uom_id": "UOM001",
+    "unit_price": 36000,
+    "line_amount": 43200000,
+    "created_at": {
+      "$date": "2026-10-12T22:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI014",
+    "standardized_po_id": "SPO011",
+    "source_po_item_id": "PI011",
+    "line_number": 1,
+    "product_id": "PRD018",
+    "quantity": 756,
+    "uom_id": "UOM001",
+    "unit_price": 9000,
+    "line_amount": 6804000,
+    "created_at": {
+      "$date": "2026-10-13T19:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI015",
+    "standardized_po_id": "SPO012",
+    "source_po_item_id": "PI012",
+    "line_number": 1,
+    "product_id": "PRD005",
+    "quantity": 3648,
+    "uom_id": "UOM001",
+    "unit_price": 58000,
+    "line_amount": 211584000,
+    "created_at": {
+      "$date": "2026-10-14T16:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI016",
+    "standardized_po_id": "SPO013",
+    "source_po_item_id": "PI013",
+    "line_number": 1,
+    "product_id": "PRD012",
+    "quantity": 1068,
+    "uom_id": "UOM001",
+    "unit_price": 65000,
+    "line_amount": 69420000,
+    "created_at": {
+      "$date": "2026-10-15T13:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI017",
+    "standardized_po_id": "SPO014",
+    "source_po_item_id": "PI014",
+    "line_number": 1,
+    "product_id": "PRD019",
+    "quantity": 72,
+    "uom_id": "UOM001",
+    "unit_price": 6500,
+    "line_amount": 468000,
+    "created_at": {
+      "$date": "2026-10-16T10:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI018",
+    "standardized_po_id": "SPO015",
+    "source_po_item_id": "PI015",
+    "line_number": 1,
+    "product_id": "PRD001",
+    "quantity": 2880,
+    "uom_id": "UOM001",
+    "unit_price": 38000,
+    "line_amount": 109440000,
+    "created_at": {
+      "$date": "2026-10-08T11:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI019",
+    "standardized_po_id": "SPO016",
+    "source_po_item_id": "PI016",
+    "line_number": 1,
+    "product_id": "PRD002",
+    "quantity": 2160,
+    "uom_id": "UOM001",
+    "unit_price": 14500,
+    "line_amount": 31320000,
+    "created_at": {
+      "$date": "2026-10-09T08:15:00.000Z"
+    }
+  },
+  {
+    "standardized_item_id": "SPI020",
+    "standardized_po_id": "SPO017",
+    "source_po_item_id": "PI017",
+    "line_number": 1,
+    "product_id": "PRD003",
+    "quantity": 1680,
+    "uom_id": "UOM001",
+    "unit_price": 4500,
+    "line_amount": 7560000,
+    "created_at": {
+      "$date": "2026-10-10T05:15:00.000Z"
+    }
+  }
+]

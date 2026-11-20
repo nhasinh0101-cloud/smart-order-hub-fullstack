@@ -1,0 +1,42 @@
+.auth-split { display: flex; min-height: 100vh; }
+.auth-left {
+  width: 42%;
+  background: var(--brand-red-dark);
+  color: #fff;
+  padding: 40px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.brand-top { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 18px; }
+.logo-box { width: 34px; height: 34px; background: rgba(255,255,255,0.15); border-radius: 8px; display: grid; place-items: center; }
+.eyebrow { font-size: 11px; letter-spacing: 1px; opacity: 0.8; margin-bottom: 12px; }
+.hero-copy h1 { font-size: 40px; font-weight: 700; margin-bottom: 16px; }
+.hero-copy .sub { font-size: 15px; opacity: 0.9; margin-bottom: 24px; line-height: 1.6; }
+.feature-list { list-style: none; display: flex; flex-direction: column; gap: 12px; font-size: 14px; }
+.brand-foot { font-size: 12px; opacity: 0.7; }
+.auth-right { flex: 1; background: #fff; display: flex; align-items: center; justify-content: center; padding: 32px; }
+.auth-form-wrap { width: 100%; max-width: 440px; }
+.section-tag { font-size: 11px; font-weight: 600; color: var(--brand-red); letter-spacing: 0.8px; margin-bottom: 6px; }
+.auth-form-wrap h2 { font-size: 28px; margin-bottom: 4px; }
+.muted { color: var(--text-muted); font-size: 13px; }
+.demo-box { background: #fdf8f6; border: 1px solid #f5e6e0; border-radius: 10px; padding: 14px; margin: 20px 0; }
+.demo-title { font-size: 12px; font-weight: 600; margin-bottom: 10px; color: #57534e; }
+.demo-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; margin-bottom: 8px; }
+.demo-pill {
+  padding: 8px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border-color);
+  background: #fff;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.demo-pill.active { border-color: var(--brand-red); background: var(--brand-red-soft); color: var(--brand-red); }
+.form-group { margin-bottom: 14px; }
+.form-group label { display: block; font-size: 12px; font-weight: 600; margin-bottom: 6px; }
+.full-btn { width: 100%; justify-content: center; padding: 11px; font-size: 14px; margin-top: 6px; }
+.auth-links { text-align: center; margin-top: 16px; font-size: 13px; }
+.auth-links a { color: var(--text-muted); text-decoration: none; }
+.auth-links a:hover { color: var(--brand-red); }
+.alert-err { background: #fee2e2; color: #991b1b; padding: 10px; border-radius: 8px; font-size: 13px; margin-bottom: 12px; }

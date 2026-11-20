@@ -1,0 +1,142 @@
+[
+  {
+    "uom_id": "UOM001",
+    "uom_code": "EA",
+    "uom_name": "Cái/Đơn vị",
+    "description": "Đơn vị tính cái/đơn vị",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM002",
+    "uom_code": "CS",
+    "uom_name": "Thùng",
+    "description": "Đơn vị tính thùng",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM003",
+    "uom_code": "BOX",
+    "uom_name": "Hộp",
+    "description": "Đơn vị tính hộp",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM004",
+    "uom_code": "PCK",
+    "uom_name": "Gói",
+    "description": "Đơn vị tính gói",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM005",
+    "uom_code": "KG",
+    "uom_name": "Kilogram",
+    "description": "Đơn vị tính kilogram",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM006",
+    "uom_code": "G",
+    "uom_name": "Gram",
+    "description": "Đơn vị tính gram",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM007",
+    "uom_code": "L",
+    "uom_name": "Lít",
+    "description": "Đơn vị tính lít",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM008",
+    "uom_code": "ML",
+    "uom_name": "Mililit",
+    "description": "Đơn vị tính mililit",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM009",
+    "uom_code": "PAL",
+    "uom_name": "Pallet",
+    "description": "Đơn vị tính pallet",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM010",
+    "uom_code": "CTN",
+    "uom_name": "Carton",
+    "description": "Đơn vị tính carton",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM011",
+    "uom_code": "DZ",
+    "uom_name": "Tá",
+    "description": "Đơn vị tính tá",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM012",
+    "uom_code": "SET",
+    "uom_name": "Bộ",
+    "description": "Đơn vị tính bộ",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM013",
+    "uom_code": "BAG",
+    "uom_name": "Túi",
+    "description": "Đơn vị tính túi",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM014",
+    "uom_code": "BTL",
+    "uom_name": "Chai",
+    "description": "Đơn vị tính chai",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM015",
+    "uom_code": "CAN",
+    "uom_name": "Lon",
+    "description": "Đơn vị tính lon",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM016",
+    "uom_code": "ROL",
+    "uom_name": "Cuộn",
+    "description": "Đơn vị tính cuộn",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM017",
+    "uom_code": "M",
+    "uom_name": "Mét",
+    "description": "Đơn vị tính mét",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM018",
+    "uom_code": "PR",
+    "uom_name": "Cặp",
+    "description": "Đơn vị tính cặp",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM019",
+    "uom_code": "TRY",
+    "uom_name": "Khay",
+    "description": "Đơn vị tính khay",
+    "uom_status": "Active"
+  },
+  {
+    "uom_id": "UOM020",
+    "uom_code": "BLK",
+    "uom_name": "Lốc",
+    "description": "Đơn vị tính lốc",
+    "uom_status": "Active"
+  }
+]

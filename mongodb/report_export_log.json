@@ -1,0 +1,262 @@
+[
+  {
+    "export_id": "EXP001",
+    "user_id": "USR002",
+    "report_type": "Exception_Report",
+    "file_name": "Exception_Report_20261101_1800.pdf",
+    "file_format": "PDF",
+    "export_status": "Success",
+    "storage_path": "/storage/reports/2026/11/Exception_Report_20261101_1800.pdf",
+    "exported_at": {
+      "$date": "2026-11-01T18:00:00.000Z"
+    },
+    "error_message": null
+  },
+  {
+    "export_id": "EXP002",
+    "user_id": "USR003",
+    "report_type": "SAP_Integration_Report",
+    "file_name": "SAP_Integration_Report_20261102_0300.csv",
+    "file_format": "CSV",
+    "export_status": "Success",
+    "storage_path": "/storage/reports/2026/11/SAP_Integration_Report_20261102_0300.csv",
+    "exported_at": {
+      "$date": "2026-11-02T03:00:00.000Z"
+    },
+    "error_message": null
+  },
+  {
+    "export_id": "EXP003",
+    "user_id": "USR004",
+    "report_type": "Status_History_Report",
+    "file_name": "Status_History_Report_20261102_1200.xlsx",
+    "file_format": "XLSX",
+    "export_status": "Success",
+    "storage_path": "/storage/reports/2026/11/Status_History_Report_20261102_1200.xlsx",
+    "exported_at": {
+      "$date": "2026-11-02T12:00:00.000Z"
+    },
+    "error_message": null
+  },
+  {
+    "export_id": "EXP004",
+    "user_id": "USR005",
+    "report_type": "Customer_PO_Report",
+    "file_name": "Customer_PO_Report_20261102_2100.pdf",
+    "file_format": "PDF",
+    "export_status": "Success",
+    "storage_path": "/storage/reports/2026/11/Customer_PO_Report_20261102_2100.pdf",
+    "exported_at": {
+      "$date": "2026-11-02T21:00:00.000Z"
+    },
+    "error_message": null
+  },
+  {
+    "export_id": "EXP005",
+    "user_id": "USR006",
+    "report_type": "PO_Summary",
+    "file_name": "PO_Summary_20261103_0600.csv",
+    "file_format": "CSV",
+    "export_status": "Success",
+    "storage_path": "/storage/reports/2026/11/PO_Summary_20261103_0600.csv",
+    "exported_at": {
+      "$date": "2026-11-03T06:00:00.000Z"
+    },
+    "error_message": null
+  },
+  {
+    "export_id": "EXP006",
+    "user_id": "USR007",
+    "report_type": "Exception_Report",
+    "file_name": "Exception_Report_20261103_1500.xlsx",
+    "file_format": "XLSX",
+    "export_status": "Success",
+    "storage_path": "/storage/reports/2026/11/Exception_Report_20261103_1500.xlsx",
+    "exported_at": {
+      "$date": "2026-11-03T15:00:00.000Z"
+    },
+    "error_message": null
+  },
+  {
+    "export_id": "EXP007",
+    "user_id": "USR008",
+    "report_type": "SAP_Integration_Report",
+    "file_name": null,
+    "file_format": "PDF",
+    "export_status": "Failed",
+    "storage_path": null,
+    "exported_at": {
+      "$date": "2026-11-04T00:00:00.000Z"
+    },
+    "error_message": "Timeout khi tổng hợp dữ liệu báo cáo"
+  },
+  {
+    "export_id": "EXP008",
+    "user_id": "USR009",
+    "report_type": "Status_History_Report",
+    "file_name": "Status_History_Report_20261104_0900.csv",
+    "file_format": "CSV",
+    "export_status": "Success",
+    "storage_path": "/storage/reports/2026/11/Status_History_Report_20261104_0900.csv",
+    "exported_at": {
+      "$date": "2026-11-04T09:00:00.000Z"
+    },
+    "error_message": null
+  },
+  {
+    "export_id": "EXP009",
+    "user_id": "USR001",
+    "report_type": "Customer_PO_Report",
+    "file_name": "Customer_PO_Report_20261104_1800.xlsx",
+    "file_format": "XLSX",
+    "export_status": "Success",
+    "storage_path": "/storage/reports/2026/11/Customer_PO_Report_20261104_1800.xlsx",
+    "exported_at": {
+      "$date": "2026-11-04T18:00:00.000Z"
+    },
+    "error_message": null
+  },
+  {
+    "export_id": "EXP010",
+    "user_id": "USR002",
+    "report_type": "PO_Summary",
+    "file_name": "PO_Summary_20261105_0300.pdf",
+    "file_format": "PDF",
+    "export_status": "Success",
+    "storage_path": "/storage/reports/2026/11/PO_Summary_20261105_0300.pdf",
+    "exported_at": {
+      "$date": "2026-11-05T03:00:00.000Z"
+    },
+    "error_message": null
+  },
+  {
+    "export_id": "EXP011",
+    "user_id": "USR003",
+    "report_type": "Exception_Report",
+    "file_name": "Exception_Report_20261105_1200.csv",
+    "file_format": "CSV",
+    "export_status": "Success",
+    "storage_path": "/storage/reports/2026/11/Exception_Report_20261105_1200.csv",
+    "exported_at": {
+      "$date": "2026-11-05T12:00:00.000Z"
+    },
+    "error_message": null
+  },
+  {
+    "export_id": "EXP012",
+    "user_id": "USR004",
+    "report_type": "SAP_Integration_Report",
+    "file_name": "SAP_Integration_Report_20261105_2100.xlsx",
+    "file_format": "XLSX",
+    "export_status": "Success",
+    "storage_path": "/storage/reports/2026/11/SAP_Integration_Report_20261105_2100.xlsx",
+    "exported_at": {
+      "$date": "2026-11-05T21:00:00.000Z"
+    },
+    "error_message": null
+  },
+  {
+    "export_id": "EXP013",
+    "user_id": "USR005",
+    "report_type": "Status_History_Report",
+    "file_name": "Status_History_Report_20261106_0600.pdf",
+    "file_format": "PDF",
+    "export_status": "Success",
+    "storage_path": "/storage/reports/2026/11/Status_History_Report_20261106_0600.pdf",
+    "exported_at": {
+      "$date": "2026-11-06T06:00:00.000Z"
+    },
+    "error_message": null
+  },
+  {
+    "export_id": "EXP014",
+    "user_id": "USR006",
+    "report_type": "Customer_PO_Report",
+    "file_name": "Customer_PO_Report_20261106_1500.csv",
+    "file_format": "CSV",
+    "export_status": "Success",
+    "storage_path": "/storage/reports/2026/11/Customer_PO_Report_20261106_1500.csv",
+    "exported_at": {
+      "$date": "2026-11-06T15:00:00.000Z"
+    },
+    "error_message": null
+  },
+  {
+    "export_id": "EXP015",
+    "user_id": "USR007",
+    "report_type": "PO_Summary",
+    "file_name": "PO_Summary_20261107_0000.xlsx",
+    "file_format": "XLSX",
+    "export_status": "Success",
+    "storage_path": "/storage/reports/2026/11/PO_Summary_20261107_0000.xlsx",
+    "exported_at": {
+      "$date": "2026-11-07T00:00:00.000Z"
+    },
+    "error_message": null
+  },
+  {
+    "export_id": "EXP016",
+    "user_id": "USR008",
+    "report_type": "Exception_Report",
+    "file_name": null,
+    "file_format": "PDF",
+    "export_status": "Failed",
+    "storage_path": null,
+    "exported_at": {
+      "$date": "2026-11-07T09:00:00.000Z"
+    },
+    "error_message": "Timeout khi tổng hợp dữ liệu báo cáo"
+  },
+  {
+    "export_id": "EXP017",
+    "user_id": "USR009",
+    "report_type": "SAP_Integration_Report",
+    "file_name": "SAP_Integration_Report_20261107_1800.csv",
+    "file_format": "CSV",
+    "export_status": "Success",
+    "storage_path": "/storage/reports/2026/11/SAP_Integration_Report_20261107_1800.csv",
+    "exported_at": {
+      "$date": "2026-11-07T18:00:00.000Z"
+    },
+    "error_message": null
+  },
+  {
+    "export_id": "EXP018",
+    "user_id": "USR001",
+    "report_type": "Status_History_Report",
+    "file_name": "Status_History_Report_20261108_0300.xlsx",
+    "file_format": "XLSX",
+    "export_status": "Success",
+    "storage_path": "/storage/reports/2026/11/Status_History_Report_20261108_0300.xlsx",
+    "exported_at": {
+      "$date": "2026-11-08T03:00:00.000Z"
+    },
+    "error_message": null
+  },
+  {
+    "export_id": "EXP019",
+    "user_id": "USR002",
+    "report_type": "Customer_PO_Report",
+    "file_name": "Customer_PO_Report_20261108_1200.pdf",
+    "file_format": "PDF",
+    "export_status": "Success",
+    "storage_path": "/storage/reports/2026/11/Customer_PO_Report_20261108_1200.pdf",
+    "exported_at": {
+      "$date": "2026-11-08T12:00:00.000Z"
+    },
+    "error_message": null
+  },
+  {
+    "export_id": "EXP020",
+    "user_id": "USR003",
+    "report_type": "PO_Summary",
+    "file_name": "PO_Summary_20261108_2100.csv",
+    "file_format": "CSV",
+    "export_status": "Success",
+    "storage_path": "/storage/reports/2026/11/PO_Summary_20261108_2100.csv",
+    "exported_at": {
+      "$date": "2026-11-08T21:00:00.000Z"
+    },
+    "error_message": null
+  }
+]

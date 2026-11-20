@@ -1,0 +1,202 @@
+[
+  {
+    "link_id": "LNK001",
+    "user_id": "USR010",
+    "customer_id": "CUS001",
+    "is_primary": true,
+    "linked_at": {
+      "$date": "2026-08-20T10:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK002",
+    "user_id": "USR011",
+    "customer_id": "CUS002",
+    "is_primary": true,
+    "linked_at": {
+      "$date": "2026-08-20T11:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK003",
+    "user_id": "USR012",
+    "customer_id": "CUS003",
+    "is_primary": true,
+    "linked_at": {
+      "$date": "2026-08-20T12:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK004",
+    "user_id": "USR013",
+    "customer_id": "CUS004",
+    "is_primary": true,
+    "linked_at": {
+      "$date": "2026-08-20T13:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK005",
+    "user_id": "USR014",
+    "customer_id": "CUS005",
+    "is_primary": true,
+    "linked_at": {
+      "$date": "2026-08-20T14:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK006",
+    "user_id": "USR015",
+    "customer_id": "CUS006",
+    "is_primary": true,
+    "linked_at": {
+      "$date": "2026-08-20T15:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK007",
+    "user_id": "USR016",
+    "customer_id": "CUS007",
+    "is_primary": true,
+    "linked_at": {
+      "$date": "2026-08-20T16:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK008",
+    "user_id": "USR017",
+    "customer_id": "CUS008",
+    "is_primary": true,
+    "linked_at": {
+      "$date": "2026-08-20T17:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK009",
+    "user_id": "USR018",
+    "customer_id": "CUS009",
+    "is_primary": true,
+    "linked_at": {
+      "$date": "2026-08-20T18:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK010",
+    "user_id": "USR019",
+    "customer_id": "CUS010",
+    "is_primary": true,
+    "linked_at": {
+      "$date": "2026-08-20T19:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK011",
+    "user_id": "USR010",
+    "customer_id": "CUS011",
+    "is_primary": false,
+    "linked_at": {
+      "$date": "2026-08-20T20:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK012",
+    "user_id": "USR011",
+    "customer_id": "CUS012",
+    "is_primary": false,
+    "linked_at": {
+      "$date": "2026-08-20T21:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK013",
+    "user_id": "USR012",
+    "customer_id": "CUS013",
+    "is_primary": false,
+    "linked_at": {
+      "$date": "2026-08-20T22:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK014",
+    "user_id": "USR013",
+    "customer_id": "CUS014",
+    "is_primary": false,
+    "linked_at": {
+      "$date": "2026-08-20T23:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK015",
+    "user_id": "USR014",
+    "customer_id": "CUS015",
+    "is_primary": false,
+    "linked_at": {
+      "$date": "2026-08-21T00:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK016",
+    "user_id": "USR015",
+    "customer_id": "CUS016",
+    "is_primary": false,
+    "linked_at": {
+      "$date": "2026-08-21T01:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK017",
+    "user_id": "USR016",
+    "customer_id": "CUS017",
+    "is_primary": false,
+    "linked_at": {
+      "$date": "2026-08-21T02:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK018",
+    "user_id": "USR017",
+    "customer_id": "CUS018",
+    "is_primary": false,
+    "linked_at": {
+      "$date": "2026-08-21T03:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK019",
+    "user_id": "USR018",
+    "customer_id": "CUS019",
+    "is_primary": false,
+    "linked_at": {
+      "$date": "2026-08-21T04:00:00.000Z"
+    },
+    "link_status": "Active"
+  },
+  {
+    "link_id": "LNK020",
+    "user_id": "USR019",
+    "customer_id": "CUS020",
+    "is_primary": false,
+    "linked_at": {
+      "$date": "2026-08-21T05:00:00.000Z"
+    },
+    "link_status": "Active"
+  }
+]
