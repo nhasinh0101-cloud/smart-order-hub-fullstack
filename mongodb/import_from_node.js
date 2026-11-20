@@ -3,8 +3,10 @@ const path = require('path');
 const { MongoClient } = require('../smart-order-hub-server/node_modules/mongodb');
 const { EJSON } = require('../smart-order-hub-server/node_modules/bson');
 
-const uri = process.argv[2] || 'mongodb://127.0.0.1:27017';
-const databaseName = process.argv[3] || 'smart_order_hub';
+const args = process.argv.slice(2);
+const onlyIfEmpty = args.includes('--if-empty');
+const [uri = process.env.MONGO_URI || 'mongodb://127.0.0.1:27017', databaseName] =
+  args.filter((arg) => arg !== '--if-empty');
 const dataDirectory = __dirname;
 
 const uniqueIndexes = {
@@ -34,29 +36,36 @@ function indexSpec(value) {
 
 async function main() {
   const client = new MongoClient(uri);
-  await client.connect();
-  const db = client.db(databaseName);
-  const files = fs.readdirSync(dataDirectory).filter((file) => file.endsWith('.json')).sort();
-
-  for (const file of files) {
-    const collectionName = path.basename(file, '.json');
-    const documents = EJSON.parse(fs.readFileSync(path.join(dataDirectory, file), 'utf8'));
-    const collection = db.collection(collectionName);
-    await collection.drop().catch(() => {});
-    if (documents.length) await collection.insertMany(documents, { ordered: true });
-    console.log(`Imported ${file} -> ${databaseName}.${collectionName} (${documents.length})`);
-  }
-
-  for (const [collectionName, specs] of Object.entries(uniqueIndexes)) {
-    const collection = db.collection(collectionName);
-    for (const spec of specs) {
-      const [key, options] = indexSpec(spec);
-      await collection.createIndex(key, options);
+  try {
+    await client.connect();
+    const db = client.db(databaseName || process.env.MONGO_DB_NAME || 'smart_order_hub');
+    if (onlyIfEmpty && (await db.listCollections({}, { nameOnly: true }).hasNext())) {
+      console.log('Database ' + db.databaseName + ' already has collections; skipped demo import.');
+      return;
     }
+    const files = fs.readdirSync(dataDirectory).filter((file) => file.endsWith('.json')).sort();
+
+    for (const file of files) {
+      const collectionName = path.basename(file, '.json');
+      const documents = EJSON.parse(fs.readFileSync(path.join(dataDirectory, file), 'utf8'));
+      const collection = db.collection(collectionName);
+      if (!onlyIfEmpty) await collection.drop().catch(() => {});
+      if (documents.length) await collection.insertMany(documents, { ordered: true });
+      console.log(`Imported ${file} -> ${db.databaseName}.${collectionName} (${documents.length})`);
+    }
+
+    for (const [collectionName, specs] of Object.entries(uniqueIndexes)) {
+      const collection = db.collection(collectionName);
+      for (const spec of specs) {
+        const [key, options] = indexSpec(spec);
+        await collection.createIndex(key, options);
+      }
+    }
+    await db.collection('po_status_history').createIndex({ po_id: 1, changed_at: 1 });
+    console.log(`Imported dataset and created indexes in ${db.databaseName}.`);
+  } finally {
+    await client.close();
   }
-  await db.collection('po_status_history').createIndex({ po_id: 1, changed_at: 1 });
-  console.log(`Imported dataset and created indexes in ${databaseName}.`);
-  await client.close();
 }
 
 main().catch((error) => { console.error(error); process.exitCode = 1; });

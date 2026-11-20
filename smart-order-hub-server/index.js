@@ -21,12 +21,17 @@ app.use(cors());
 app.use(express.json({ limit: '10mb' }));
 app.use(morgan('dev'));
 
-mongoose.connect(MONGO_URI)
+mongoose.connect(MONGO_URI, { dbName: process.env.MONGO_DB_NAME })
   .then(() => console.log('Connected to MongoDB: smart_order_hub'))
   .catch((err) => console.error('MongoDB connection error:', err));
 
 app.get('/api/health', (req, res) => {
-  res.json({ status: 'OK', database: 'smart_order_hub', timestamp: new Date() });
+  const connected = mongoose.connection.readyState === 1;
+  res.status(connected ? 200 : 503).json({
+    status: connected ? 'OK' : 'UNAVAILABLE',
+    database: mongoose.connection.name || 'smart_order_hub',
+    timestamp: new Date()
+  });
 });
 
 app.use('/api/auth', authRoutes);
