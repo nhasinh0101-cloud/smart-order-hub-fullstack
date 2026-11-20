@@ -28,7 +28,7 @@ export interface PurchaseOrder {
   current_status_code: string;
   status_name?: string;
   sap_sales_order_id?: string | null;
-  total_amount: number;
+  total_amount: number | null;
   received_at: string;
   updated_at: string;
 }

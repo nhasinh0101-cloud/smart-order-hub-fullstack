@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const router = express.Router();
+const orderCategories = require('../order-categories');
 
 const db = () => mongoose.connection.db;
 
@@ -13,30 +14,15 @@ router.get('/summary', async (req, res) => {
     }
 
     const totalPOs = await db().collection('customer_po').countDocuments(poFilter);
-    const processingPOs = await db().collection('customer_po').countDocuments({
-      ...poFilter,
-      current_status_code: { $in: ['NEW', 'RECEIVED', 'VALIDATING', 'MAPPED'] }
-    });
-    const needInfoPOs = await db().collection('customer_po').countDocuments({
-      ...poFilter,
-      current_status_code: { $in: ['VALIDATION_FAILED', 'EXCEPTION_OPEN', 'NEED_CLARIFICATION', 'PENDING_CORRECTION'] }
-    });
-    const readySapPOs = await db().collection('customer_po').countDocuments({
-      ...poFilter,
-      current_status_code: { $in: ['VALIDATED', 'READY_FOR_SAP', 'PENDING_SAP'] }
-    });
-    const sentSapPOs = await db().collection('customer_po').countDocuments({
-      ...poFilter,
-      current_status_code: { $in: ['SENT_TO_SAP', 'SAP_PENDING', 'SENT_SAP', 'TECH_ACK_RECEIVED'] }
-    });
-    const sapSuccessPOs = await db().collection('customer_po').countDocuments({
-      ...poFilter,
-      current_status_code: { $in: ['SAP_ACCEPTED', 'COMPLETED', 'CLOSED'] }
-    });
-    const sapRejectedPOs = await db().collection('customer_po').countDocuments({
-      ...poFilter,
-      current_status_code: { $in: ['SAP_REJECTED', 'FAILED'] }
-    });
+    const categoryCounts = await Promise.all(
+      Array.from(orderCategories, async ([category, statuses]) => [
+        category,
+        await db().collection('customer_po').countDocuments({
+          ...poFilter,
+          current_status_code: { $in: statuses }
+        })
+      ])
+    );
     const exceptionCases = await db().collection('exception_case').find({}).toArray();
     const scopedExceptionIds = role === 'B2B_CUSTOMER' && customerId
       ? (await db().collection('customer_po').find({ customer_id: customerId }).toArray())
@@ -52,12 +38,7 @@ router.get('/summary', async (req, res) => {
       role,
       kpis: {
         total_po: totalPOs,
-        processing_po: processingPOs,
-        need_info_po: needInfoPOs,
-        ready_sap_po: readySapPOs,
-        sent_sap_po: sentSapPOs,
-        sap_success_po: sapSuccessPOs,
-        sap_rejected_po: sapRejectedPOs,
+        ...Object.fromEntries(categoryCounts),
         open_exceptions: openExceptions
       }
     });

@@ -37,6 +37,14 @@ import { ActivatedRoute } from '@angular/router';
             <label style="font-size:12px; font-weight:600; display:block; margin-bottom:4px;">Trạng thái hiện tại</label>
             <select class="select-control" [ngModel]="status()" (ngModelChange)="status.set($event)">
               <option value="ALL">Tất cả trạng thái</option>
+              <optgroup label="Theo nhóm PO">
+                <option value="processing_po">PO đang xử lý</option>
+                <option value="need_info_po">Cần bổ sung thông tin</option>
+                <option value="ready_sap_po">Sẵn sàng chuyển SAP</option>
+                <option value="sent_sap_po">Đã gửi · Chờ kết quả SAP</option>
+                <option value="sap_success_po">SAP đã tạo Sales Order</option>
+                <option value="sap_rejected_po">SAP từ chối xử lý</option>
+              </optgroup>
               <option value="RECEIVED">Đã tiếp nhận</option>
               <option value="PENDING_CORRECTION">Cần bổ sung thông tin</option>
               <option value="READY_FOR_SAP">Sẵn sàng chuyển SAP</option>
@@ -71,7 +79,11 @@ import { ActivatedRoute } from '@angular/router';
           <tbody>
             @for (po of orders(); track po.po_id) {
               <tr>
-                <td style="font-weight:600; color:#c92a2a;">{{ po.hub_order_id || po.po_id || 'Chưa có mã' }}</td>
+                <td>
+                  <button type="button" class="btn" style="font-weight:600; color:#c92a2a;" (click)="viewDetail(po.po_id)">
+                    {{ po.hub_order_id || po.po_id || 'Chưa có mã' }}
+                  </button>
+                </td>
                 <td>{{ po.customer_po_number || po.customer_reference_po || 'Không có mã tham chiếu' }}</td>
                 <td>{{ po.customer_name || po.customer_id || 'Chưa xác định đối tác' }}</td>
                 <td>{{ po.intake_channel || 'PORTAL_FORM' }}</td>
@@ -106,7 +118,7 @@ import { ActivatedRoute } from '@angular/router';
                   <td>{{ it.product_name }}</td>
                   <td>{{ it.quantity }}</td>
                   <td>{{ it.uom_code }}</td>
-                  <td>{{ it.unit_price | number }} đ</td>
+                  <td>{{ it.unit_price == null ? 'Chưa xác định' : (it.unit_price | number) + ' đ' }}</td>
                 </tr>
               }
             </tbody>
@@ -129,12 +141,18 @@ export class OrdersComponent implements OnInit {
     this.route.queryParamMap.subscribe((params) => {
       const query = params.get('search') || '';
       this.search.set(query);
+      this.status.set(params.get('category') || 'ALL');
+      this.selectedDetail.set(null);
       this.loadOrders();
+      const poId = params.get('po');
+      if (poId) this.viewDetail(poId);
     });
   }
 
   loadOrders(): void {
-    this.api.getOrders({ search: this.search(), channel: this.channel(), status: this.status() }).subscribe((res) => {
+    const selection = this.status();
+    const statusFilter: Record<string, string> = selection.endsWith('_po') ? { category: selection } : { status: selection };
+    this.api.getOrders({ search: this.search(), channel: this.channel(), ...statusFilter }).subscribe((res) => {
       this.orders.set(res.items);
     });
   }

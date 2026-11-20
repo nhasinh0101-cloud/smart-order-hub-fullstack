@@ -35,7 +35,7 @@ export class SohApiService {
   }
 
   getOrderDetail(poId: string) {
-    return this.http.get<any>(`${this.BASE}/orders/${poId}`);
+    return this.http.get<any>(`${this.BASE}/orders/${encodeURIComponent(poId)}`, { params: this.buildScopeParams() });
   }
 
   getProductCatalog() {

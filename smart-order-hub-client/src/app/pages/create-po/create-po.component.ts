@@ -4,6 +4,14 @@ import { AuthService } from '../../services/auth.service';
 import { SohApiService } from '../../services/soh-api.service';
 import * as XLSX from 'xlsx';
 
+interface PoLine {
+  sku: string;
+  product_name: string;
+  quantity: number;
+  uom_code: string;
+  unit_price: number | null;
+}
+
 @Component({
   selector: 'app-create-po',
   standalone: false,
@@ -81,7 +89,7 @@ import * as XLSX from 'xlsx';
                       }
                     </select>
                   </td>
-                  <td><input type="number" class="input-control" [(ngModel)]="line.unit_price"></td>
+                  <td><input type="number" min="0" step="any" class="input-control" [(ngModel)]="line.unit_price" [attr.aria-label]="'Đơn giá dòng ' + ($index + 1)"></td>
                   <td><button class="btn" (click)="removeLine($index)">Xóa</button></td>
                 </tr>
               }
@@ -98,8 +106,8 @@ export class CreatePoComponent implements OnInit {
   customerPoNumber = 'PO-ANPHU-2026-99';
   deliveryDate = '2026-11-25';
   shippingAddress = 'Kho trung tâm An Phú, TP. Hồ Chí Minh';
-  lines = [
-    { sku: 'SKU-10007', product_name: 'Nước mắm truyền thống chai 500ml', quantity: 50, uom_code: 'EA', unit_price: 185000 }
+  lines: PoLine[] = [
+    { sku: 'SKU-10007', product_name: 'Nước mắm truyền thống chai 500ml', quantity: 50, uom_code: 'EA', unit_price: null }
   ];
   products: any[] = [];
   uoms: any[] = [
@@ -141,7 +149,7 @@ export class CreatePoComponent implements OnInit {
       product_name: 'Nước mắm truyền thống chai 500ml',
       quantity: 50,
       uom_code: 'EA',
-      unit_price: 185000
+      unit_price: ''
     }];
     const sheet = XLSX.utils.json_to_sheet(rows);
     const workbook = XLSX.utils.book_new();
@@ -166,14 +174,18 @@ export class CreatePoComponent implements OnInit {
             const key = Object.keys(row).find((name) => keys.includes(name.trim().toLowerCase()));
             return key ? row[key] : '';
           };
+          const price = String(get('unit_price', 'price', 'don_gia', 'đơn giá')).trim();
           return {
             sku: String(get('sku', 'sku_code', 'customer_sku')).trim(),
             product_name: String(get('product_name', 'product', 'ten_san_pham')).trim(),
             quantity: Number(get('quantity', 'qty', 'so_luong') || 0),
             uom_code: String(get('uom_code', 'uom', 'don_vi_tinh') || 'EA').trim().toUpperCase(),
-            unit_price: Number(get('unit_price', 'price', 'don_gia') || 0)
+            unit_price: price === '' ? null : Number(price)
           };
         }).filter((line) => line.sku || line.product_name);
+        if (normalized.some(({ unit_price }) => unit_price !== null && (!Number.isFinite(unit_price) || unit_price < 0))) {
+          throw new Error('Đơn giá phải là số lớn hơn hoặc bằng 0.');
+        }
         if (!normalized.length) throw new Error('Không tìm thấy dòng sản phẩm hợp lệ.');
         const first = rows[0];
         const value = (keys: string[]) => {
@@ -195,7 +207,7 @@ export class CreatePoComponent implements OnInit {
   }
 
   addLine() {
-    this.lines.push({ sku: '', product_name: '', quantity: 10, uom_code: 'BOX', unit_price: 100000 });
+    this.lines.push({ sku: '', product_name: '', quantity: 10, uom_code: 'BOX', unit_price: null });
   }
   removeLine(idx: number) {
     if (this.lines.length > 1) this.lines.splice(idx, 1);
@@ -203,6 +215,13 @@ export class CreatePoComponent implements OnInit {
   submitPo() {
     if (!this.canSubmit) {
       alert('Tài khoản chưa được liên kết SAP Customer ID hoặc chưa được cấp quyền đặt hàng.');
+      return;
+    }
+    const invalidPriceIndex = this.lines.findIndex(({ unit_price }) =>
+      unit_price !== null && (!Number.isFinite(unit_price) || unit_price < 0)
+    );
+    if (invalidPriceIndex !== -1) {
+      alert('Đơn giá tại dòng ' + (invalidPriceIndex + 1) + ' phải là số lớn hơn hoặc bằng 0.');
       return;
     }
     this.api.createOrder({

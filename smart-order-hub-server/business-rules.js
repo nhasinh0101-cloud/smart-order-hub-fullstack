@@ -94,6 +94,15 @@ function validateOrderInput(input) {
     if (!Number.isInteger(Number(item.quantity)) || Number(item.quantity) <= 0) {
       errors.push(`Số lượng tại dòng ${line} phải là số nguyên lớn hơn 0.`);
     }
+    const price = item.unit_price;
+    if (price != null && price !== '') {
+      const numericPrice = typeof price === 'number' || (typeof price === 'string' && price.trim())
+        ? Number(price)
+        : NaN;
+      if (!Number.isFinite(numericPrice) || numericPrice < 0 || !Number.isFinite(numericPrice * Number(item.quantity))) {
+        errors.push('Đơn giá tại dòng ' + line + ' phải là số hữu hạn lớn hơn hoặc bằng 0.');
+      }
+    }
     if (!String(item.uom_code || '').trim()) errors.push(`Dòng ${line} chưa có thông tin UOM.`);
   });
   return errors;

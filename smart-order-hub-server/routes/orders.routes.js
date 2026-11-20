@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const { validateOrderInput, isActiveAccount, can } = require('../business-rules');
+const orderCategories = require('../order-categories');
 const router = express.Router();
 
 const db = () => mongoose.connection.db;
@@ -46,11 +47,13 @@ async function validateMasterData(items) {
 
 router.get('/', async (req, res) => {
   try {
-    const { role, customerId, search, channel, status, fromDate, toDate } = req.query;
+    const { role, customerId, search, channel, status, category, fromDate, toDate } = req.query;
     const query = {};
     if (role === 'B2B_CUSTOMER' && customerId) query.customer_id = customerId;
     if (channel && channel !== 'ALL') query.intake_channel = channel;
-    if (status && status !== 'ALL') query.current_status_code = status;
+    const categoryStatuses = orderCategories.get(category);
+    if (categoryStatuses) query.current_status_code = { $in: categoryStatuses };
+    else if (status && status !== 'ALL') query.current_status_code = status;
     if (search) {
       const regex = new RegExp(search.trim(), 'i');
       query.$or = [
@@ -119,19 +122,40 @@ router.get('/catalog/products', async (req, res) => {
 router.get('/:poId', async (req, res) => {
   try {
     const { poId } = req.params;
+    const { role, customerId } = req.query;
+    if (role === 'B2B_CUSTOMER' && !customerId) return res.sendStatus(403);
+    const scope = role === 'B2B_CUSTOMER' ? { customer_id: customerId } : {};
     const po = await db().collection('customer_po').findOne({
+      ...scope,
       $or: [{ po_id: poId }, { hub_order_id: poId }]
     });
     if (!po) return res.status(404).json({ message: 'Không tìm thấy đơn hàng' });
 
     const customer = await db().collection('customer').findOne({ customer_id: po.customer_id });
-    const items = await db().collection('po_item').find({ po_id: po.po_id }).toArray();
-    const versions = await db().collection('po_version').find({ po_id: po.po_id }).toArray();
+    const versions = await db().collection('po_version').find({ po_id: po.po_id }).sort({ version_number: -1 }).toArray();
+    const items = await db().collection('po_item').find({
+      $or: [{ po_id: po.po_id }, { version_id: { $in: versions.map((version) => version.version_id) } }]
+    }).toArray();
     const history = await db().collection('po_status_history').find({ po_id: po.po_id }).toArray();
     const exceptions = await db().collection('exception_case').find({ po_id: po.po_id }).toArray();
     const sapTransactions = await db().collection('sap_integration_transaction').find({ po_id: po.po_id }).toArray();
 
-    res.json({ po, customer, items, versions, history, exceptions, sapTransactions });
+    const products = await db().collection('product').find({
+      product_id: { $in: [...new Set(items.map((item) => item.product_id).filter(Boolean))] }
+    }).toArray();
+    const skuByProduct = new Map(products.map((product) => [product.product_id, product.sku_code]));
+    const uoms = await db().collection('unit_of_measure').find({
+      uom_id: { $in: [...new Set(items.map((item) => item.uom_id).filter(Boolean))] }
+    }).toArray();
+    const uomById = new Map(uoms.map((uom) => [uom.uom_id, uom.uom_code]));
+    const mappedItems = items.map((item) => ({
+      ...item,
+      customer_sku: item.customer_sku ?? item.customer_product_code,
+      product_name: item.product_name ?? item.product_name_raw,
+      uom_code: item.uom_code ?? uomById.get(item.uom_id),
+      mapped_sku: skuByProduct.get(item.product_id) ?? null
+    }));
+    res.json({ po, customer, items: mappedItems, versions, history, exceptions, sapTransactions });
   } catch (err) {
     res.status(500).json({ message: 'Lỗi tải chi tiết đơn hàng', error: err.message });
   }
@@ -179,7 +203,17 @@ router.post('/', async (req, res) => {
     const seq = Math.floor(1000 + Math.random() * 9000);
     const po_id = `PO-${Date.now()}`;
     const hub_order_id = `SOH-2026-${seq}`;
-    const totalAmount = items.reduce((sum, it) => sum + Number(it.quantity || 0) * Number(it.unit_price || 0), 0);
+
+    const unitPrices = items.map((item) =>
+      item.unit_price == null || item.unit_price === '' ? null : Number(item.unit_price)
+    );
+    const lineTotals = items.map((item, index) =>
+      unitPrices[index] === null ? null : unitPrices[index] * Number(item.quantity)
+    );
+    const totalAmount = lineTotals.includes(null) ? null : lineTotals.reduce((sum, amount) => sum + amount, 0);
+    if (totalAmount !== null && !Number.isFinite(totalAmount)) {
+      return res.status(400).json({ message: 'Tổng giá trị PO vượt phạm vi cho phép.' });
+    }
 
     const newPo = {
       po_id,
@@ -207,12 +241,12 @@ router.post('/', async (req, res) => {
       version_id: versionId,
       line_number: idx + 1,
       customer_sku: it.sku || it.product_code,
-      product_id: it.product_id || masterData.productMap[it.sku]?.product_id || null,
+      product_id: masterData.productMap[String(it.sku || it.customer_sku || '').trim()]?.product_id || null,
       product_name: it.product_name || masterData.productMap[it.sku]?.product_name,
       quantity: Number(it.quantity),
       uom_code: it.uom_code || 'BOX',
-      unit_price: Number(it.unit_price || 0),
-      line_total: Number(it.quantity || 0) * Number(it.unit_price || 0)
+      unit_price: unitPrices[idx],
+      line_total: lineTotals[idx]
     }));
 
     await db().collection('customer_po').insertOne(newPo);
