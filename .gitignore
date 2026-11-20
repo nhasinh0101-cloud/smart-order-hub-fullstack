@@ -1,9 +1,0 @@
-node_modules/
-dist/
-.angular/
-.venv/
-.env
-.env.*
-!.env.example
-*.log
-coverage/
