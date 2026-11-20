@@ -1,9 +1,0 @@
-.git
-.venv
-**/node_modules
-**/dist
-**/.angular
-**/.env
-**/.env.*
-**/*.log
-*.xlsx
