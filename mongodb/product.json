@@ -2,160 +2,160 @@
   {
     "product_id": "PRD001",
     "sku_code": "SKU-10007",
-    "product_name": "Nước mắm truyền thống chai 500ml",
-    "description": "Nước mắm truyền thống chai 500ml - hàng tiêu dùng nhanh",
+    "product_name": "Coca-Cola Original lon 330ml",
+    "description": "Coca-Cola Original lon 330ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD002",
     "sku_code": "SKU-10014",
-    "product_name": "Nước tương đậu nành chai 250ml",
-    "description": "Nước tương đậu nành chai 250ml - hàng tiêu dùng nhanh",
+    "product_name": "Coca-Cola Original chai PET 390ml",
+    "description": "Coca-Cola Original chai PET 390ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD003",
     "sku_code": "SKU-10021",
-    "product_name": "Mì gói hương vị tôm chua cay gói 75g",
-    "description": "Mì gói hương vị tôm chua cay gói 75g - hàng tiêu dùng nhanh",
+    "product_name": "Coca-Cola Original chai PET 600ml",
+    "description": "Coca-Cola Original chai PET 600ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD004",
     "sku_code": "SKU-10028",
-    "product_name": "Sữa tươi tiệt trùng hộp 1L",
-    "description": "Sữa tươi tiệt trùng hộp 1L - hàng tiêu dùng nhanh",
+    "product_name": "Coca-Cola Zero Sugar lon 330ml",
+    "description": "Coca-Cola Zero Sugar lon 330ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD005",
     "sku_code": "SKU-10035",
-    "product_name": "Dầu ăn cao cấp chai 1L",
-    "description": "Dầu ăn cao cấp chai 1L - hàng tiêu dùng nhanh",
+    "product_name": "Coca-Cola Zero Sugar chai PET 390ml",
+    "description": "Coca-Cola Zero Sugar chai PET 390ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD006",
     "sku_code": "SKU-10042",
-    "product_name": "Đường tinh luyện gói 1kg",
-    "description": "Đường tinh luyện gói 1kg - hàng tiêu dùng nhanh",
+    "product_name": "Coca-Cola Zero Sugar chai PET 600ml",
+    "description": "Coca-Cola Zero Sugar chai PET 600ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD007",
     "sku_code": "SKU-10049",
-    "product_name": "Gạo thơm ST25 túi 5kg",
-    "description": "Gạo thơm ST25 túi 5kg - hàng tiêu dùng nhanh",
+    "product_name": "Sprite hương chanh lon 330ml",
+    "description": "Sprite hương chanh lon 330ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD008",
     "sku_code": "SKU-10056",
-    "product_name": "Cà phê hòa tan 3in1 hộp 20 gói",
-    "description": "Cà phê hòa tan 3in1 hộp 20 gói - hàng tiêu dùng nhanh",
+    "product_name": "Sprite hương chanh chai PET 390ml",
+    "description": "Sprite hương chanh chai PET 390ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD009",
     "sku_code": "SKU-10063",
-    "product_name": "Trà xanh đóng chai 455ml",
-    "description": "Trà xanh đóng chai 455ml - hàng tiêu dùng nhanh",
+    "product_name": "Sprite hương chanh chai PET 600ml",
+    "description": "Sprite hương chanh chai PET 600ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD010",
     "sku_code": "SKU-10070",
-    "product_name": "Bột giặt túi 3kg",
-    "description": "Bột giặt túi 3kg - hàng tiêu dùng nhanh",
+    "product_name": "Fanta hương cam lon 330ml",
+    "description": "Fanta hương cam lon 330ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD011",
     "sku_code": "SKU-10077",
-    "product_name": "Nước rửa chén chai 750g",
-    "description": "Nước rửa chén chai 750g - hàng tiêu dùng nhanh",
+    "product_name": "Fanta hương cam chai PET 390ml",
+    "description": "Fanta hương cam chai PET 390ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD012",
     "sku_code": "SKU-10084",
-    "product_name": "Giấy vệ sinh cuộn lốc 10 cuộn",
-    "description": "Giấy vệ sinh cuộn lốc 10 cuộn - hàng tiêu dùng nhanh",
+    "product_name": "Fanta hương cam chai PET 600ml",
+    "description": "Fanta hương cam chai PET 600ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD013",
     "sku_code": "SKU-10091",
-    "product_name": "Kem đánh răng tuýp 180g",
-    "description": "Kem đánh răng tuýp 180g - hàng tiêu dùng nhanh",
+    "product_name": "Fanta hương xá xị lon 330ml",
+    "description": "Fanta hương xá xị lon 330ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD014",
     "sku_code": "SKU-10098",
-    "product_name": "Dầu gội chai 650ml",
-    "description": "Dầu gội chai 650ml - hàng tiêu dùng nhanh",
+    "product_name": "Schweppes Soda lon 330ml",
+    "description": "Schweppes Soda lon 330ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD015",
     "sku_code": "SKU-10105",
-    "product_name": "Nước suối chai 500ml",
-    "description": "Nước suối chai 500ml - hàng tiêu dùng nhanh",
+    "product_name": "Aquafina nước tinh khiết chai 500ml",
+    "description": "Aquafina nước tinh khiết chai 500ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD016",
     "sku_code": "SKU-10112",
-    "product_name": "Bánh quy bơ hộp 400g",
-    "description": "Bánh quy bơ hộp 400g - hàng tiêu dùng nhanh",
+    "product_name": "Aquafina nước tinh khiết chai 355ml",
+    "description": "Aquafina nước tinh khiết chai 355ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD017",
     "sku_code": "SKU-10119",
-    "product_name": "Snack khoai tây gói 52g",
-    "description": "Snack khoai tây gói 52g - hàng tiêu dùng nhanh",
+    "product_name": "Fuze Tea hương chanh chai PET 450ml",
+    "description": "Fuze Tea hương chanh chai PET 450ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD018",
     "sku_code": "SKU-10126",
-    "product_name": "Nước ngọt có ga lon 330ml",
-    "description": "Nước ngọt có ga lon 330ml - hàng tiêu dùng nhanh",
+    "product_name": "Fuze Tea hương đào chai PET 450ml",
+    "description": "Fuze Tea hương đào chai PET 450ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD019",
     "sku_code": "SKU-10133",
-    "product_name": "Sữa chua uống chai 100ml",
-    "description": "Sữa chua uống chai 100ml - hàng tiêu dùng nhanh",
+    "product_name": "Minute Maid Teppy cam lon 327ml",
+    "description": "Minute Maid Teppy cam lon 327ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   },
   {
     "product_id": "PRD020",
     "sku_code": "SKU-10140",
-    "product_name": "Xúc xích tiệt trùng gói 175g",
-    "description": "Xúc xích tiệt trùng gói 175g - hàng tiêu dùng nhanh",
+    "product_name": "Nutriboost hương cam chai PET 297ml",
+    "description": "Nutriboost hương cam chai PET 297ml - sản phẩm đồ uống Coca-Cola",
     "base_uom_id": "UOM001",
     "product_status": "Active"
   }

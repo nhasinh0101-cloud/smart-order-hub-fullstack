@@ -76,7 +76,7 @@ interface PoLine {
                     <select class="select-control" [(ngModel)]="line.sku" (ngModelChange)="syncProduct(line)">
                       <option value="">-- Chọn SKU --</option>
                       @for (product of products; track product.sku_code) {
-                        <option [value]="product.sku_code">{{ product.sku_code }}</option>
+                        <option [value]="product.sku_code">{{ product.sku_code }} - {{ product.product_name }}</option>
                       }
                     </select>
                   </td>
@@ -107,7 +107,7 @@ export class CreatePoComponent implements OnInit {
   deliveryDate = '2026-11-25';
   shippingAddress = 'Kho trung tâm An Phú, TP. Hồ Chí Minh';
   lines: PoLine[] = [
-    { sku: 'SKU-10007', product_name: 'Nước mắm truyền thống chai 500ml', quantity: 50, uom_code: 'EA', unit_price: null }
+    { sku: 'SKU-10007', product_name: '', quantity: 50, uom_code: 'EA', unit_price: null }
   ];
   products: any[] = [];
   uoms: any[] = [
@@ -146,7 +146,7 @@ export class CreatePoComponent implements OnInit {
       shipping_address: this.shippingAddress,
       note: 'Ghi chú giao hàng (không bắt buộc)',
       sku: 'SKU-10007',
-      product_name: 'Nước mắm truyền thống chai 500ml',
+      product_name: this.products.find((product) => product.sku_code === 'SKU-10007')?.product_name || '',
       quantity: 50,
       uom_code: 'EA',
       unit_price: ''
