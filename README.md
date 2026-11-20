@@ -28,7 +28,6 @@ Smart Order Hub (SOH) là website quản lý đơn đặt hàng B2B. Khách hàn
 - **Mô phỏng SAP:** Kiểm tra trạng thái PO trước khi chuyển, theo dõi giao dịch và ghi nhận mã Sales Order từ kết quả nghiệp vụ mô phỏng.
 - **Vận hành:** Xem chỉ số tổng quan, xác minh tài khoản, tra cứu tồn kho, tạo yêu cầu hỗ trợ và xem lịch sử xuất báo cáo.
 
-Xem thêm [quy tắc nghiệp vụ và phạm vi prototype](./BUSINESS_RULES_ALIGNMENT.md).
 
 ## 🚀 3. Cài đặt và chạy dự án
 
